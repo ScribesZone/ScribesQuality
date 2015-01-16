@@ -7,7 +7,8 @@ $OrthographeIdentificateur:
 $Identificateur: 
   Les identificateurs doivent être clairs, compréhensibles en dehors de leur contexte immédiat, doivent reflêter les objets auquels ils font références et ne pas constituer de paraphrases complexes de l'objet auquel ils font référence.
 
-$Trigramme: 
+$UtilisationTrigramme:
+
   Un trigramme (cf $Trigramme) doit être utilisé pour reférencer une partie prenante.
 
 $FormeNominale:

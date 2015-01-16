@@ -5,7 +5,7 @@
 $NomRelation:
   Le nom d'une relation doit correspondre à une forme nominale plurielle. Par ailleurs les termes utilisés dans le nom doivent généralement être définis dans le glossaire. Si une abbréviation est utilisée celle-ci devra être impérativement définie dans le glossaire.
   Exemples: "LesPersonnes" ou "TheLoanedBooks"
-  Commentaire: Contrairement au nom d'une classe (cf $NomClass) qui est une forme nominale au singuler, les relations correspondent à un ensemble d'entités. 
+  Commentaire: Contrairement au nom d'une classe (cf $NomClasse) qui est une forme nominale au singuler, les relations correspondent à un ensemble d'entités.
   Exemples: Les objets de classe "Personne" seront donc naturellement stockées dans la relation "LesPersonnes".
   
 $NomenclatureRelation:

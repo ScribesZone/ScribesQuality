@@ -8,7 +8,7 @@ $NomExigence:
   type: OK
 
 $NomExigenceFonctionnelle:
-  Le nom d'une exigence fonctionnelle doit débuter par un verbe à l'infinitif. Cette règle est cohérente avec la règle correspondante pour les cas d'utilisation (cf $NomCasUtilisation).
+  Le nom d'une exigence fonctionnelle doit débuter par un verbe à l'infinitif. Cette règle est cohérente avec la règle correspondante pour les cas d'utilisation (cf $NomCU).
   Commentaire: Cette règle permet de reflêter clairement qu'une exigence fonctionnelle correspond à une fonction devant pouvoir être exécutée par un acteur en utilisant le système.
   Exemples: "InscrireUneEquipe"
   type: OK
@@ -69,12 +69,3 @@ $ProprieteExigenceInadaptee:
   La valeur de la propriété associée à l'exigence semble inadaptée.
   type: KO
 
-
-
-
-
-
-  
-  
-  
-  
