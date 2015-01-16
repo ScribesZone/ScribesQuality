@@ -11,5 +11,5 @@ by providing a reference.
 The set of rules is better viewed on http://scribequality.readthedocs.org
 
 .. image:: https://readthedocs.org/projects/scribequality/badge/?version=latest
-:target: https://readthedocs.org/projects/scribequality/?badge=latest
+   :target: https://readthedocs.org/projects/scribequality/?badge=latest
    :alt: Documentation Status
