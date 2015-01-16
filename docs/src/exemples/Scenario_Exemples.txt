@@ -1,0 +1,81 @@
+   1/ Jane enregistre un badge avec le même numéro qu’un autre badge.
+   2/ La base de donnée vérifie la cohérence des données.
+   3/ La base de donnée annule la création du badge et affiche une erreur.
+
+   1/ Le superviseur Pierre demande au système CyberBatiment de lui afficher le formulaire permettant de saisir un nouveau point d'accès.
+   2/ CyberBatiment lui affiche le formulaire.
+   3/ Pierre rempli et valide le formulaire;
+
+   1/ Un incident I001 est enregistré sur le point d'accès P123 du bâtiment IM2AG-A.  
+   2/ Le gardien Jacques est alerté de cet incident I001.
+   3/ Jacques se déplace vers le point d'accès P123.
+   4/ Jacques débloque le point d'accès P123.
+   5/ Jacques remet le badge B007 dans un état cohérent.
+
+   1) Marie veut entrer dans un bâtiment
+   1/ Marie se présente devant la porte d'un bâtiment
+   2/ Le lecteur indique que la porte fonctionne normalement
+   3/ Marie présente son badge
+   4/ Le lecteur détecte le badge et envoi les informations du badge au système
+   5/ Le système constate que Marie est autorisée à accèder à ce bâtiment
+   6/ Le système répond au lecteur d'ouvrir la porte
+   7/ La porte s'ouvre
+   8/ Marie passe la porte
+   9/ La porte se referme 3 secondes après le passage de Marie
+   
+   ...
+   5/ CyberBatiment enregistre une alarme sur ce point d'accès.
+   6/ La porte se verrouille.
+   7/ Le gardien doit venir déverrouiller la porte.
+   
+   1/ Marc, le superviseur sélectionne la fonction 'Créer groupe' du menu.
+   2/ Le système affecte un numéro de code au groupe : '00765'.
+   3/ Le système demande alors le numéro de code de l'administrateur du groupe.
+   3/ Marc tape '128652946'.
+   4/ Le système affiche 'Nouveau groupe créé'.
+
+   1/ UFRSystème demande le groupe dans lequel la personne sera ajouté. 2
+   2/ Chang sélectionne le numéro du groupe, le groupe numéro 2.  
+   3/ UFRSystème demande le numéro de la personne à ajouter. 
+   4/ Chang selectionne la personne numéro 4 dans la liste qui lui est proposé. 
+   5/ UFRSystème ajoute la personne 4 dans le groupe
+ 
+   1/ UFRSystème demande le numéro du groupe. 
+   2/ Gérard saisie "2". 
+   3/ UFRSystème recherche si le groupe 2 existe. 
+   4/ UFRSystème demande le code du/des bâtiments concernées.
+   5/ Gérard saisie "IM2AG". 
+   6/ UFRSystème vérifie que le/les bâtiments existe(nt). 
+   7/ UFRSystème demande de saisir le nom des périodes à ajouter. 
+   8/ Gérard saisie "PeriodeEtudiants". 
+   9/ UFRSystème demande de saisir le nom des périodes à retirer.
+   10/ Gérard saisie "VacancesNoel". 
+   11/ UFRSystème affiche que l’ajout a fonctionné
+
+   1/ Guillaume porteur de badge se présente devant l'odinateur PC026. 
+   2/ SystemeIMAG affiche sur l'ordinateur PC026 que l'ordinateur est disponible. 
+   3/ Guillaume porteur de badge introduit son badge, badge026, dans l'ordinateur PC026. 
+   4/ SystemeIMAG lit le badge026 et authentifie Guillaume porteur de badge sur l'ordinateur PC026. 
+   5/ Guillaume porteur de badge peut utiliser l'ordinateur PC026. 
+ 
+   1/ Gilles Martin qui est précedemment entré dans le batiment F320 pour lequel il avait une autorisation valide, passe son badge sur le lecteur B003. L'ordinateur présentait alors une interface indiquant l'attente d'une connexion.
+   2/ CyberUFR lit les informations du badge et authentifie l'utilisateur et ses autorisations. Il indique pendant ce temps une interface sur l'ordinateur indiquant l'état en cours de validation de la machine. 
+   3/ CyberUFR indique sur l'interface de l'ordinateur la validation de l'autorisation et démarre la session de l'utilisateur 
+
+# Le scenario suivant est interressant car il permet de montrer les objectifs des scenarios externes
+# (1) séparer les responsabilités système/acteur
+# (2) illustrer le cas d'utilsation pour validation
+# (3) les éléments d'interfaces sont là juste pour l'illustration et la compréhension
+# (4) idem pour les éventuelles actions internes coté acteur ou coté système
+# voir aussi les diagrammes uml-CQD-JNS-rev-JFE-4, fig 21
+
+   1/ David présente son badge au lecteur de carte Lec01 au point d’accès DLST-A02.
+   2/ contrôleAccesBât effectue les vérifications d’accès par rapport au badge et envois les
+informations au lecteur Lec01.
+   3/ Le lecteur Lec01 confirme l’autorisation d’entrée en affichant « Vous pouvez entrer »
+   4/ contrôleAccesBât ouvre ensuite la porte automatique P1.
+   5/ David entre dans le bâtiment du DLST-A en franchissant la porte P1.
+   6/ Le capteur C1 positionné sur le coté gauche de la porte P1 détecte un passage et envoi
+cette information au contrôleAccesBât.
+   7/ contrôleAccesBât ayant été informé du passage referme la porte après 3 secondes.
+   

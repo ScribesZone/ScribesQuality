@@ -1,0 +1,5 @@
+#=Audit
+
+$DefautDejaMentionne:
+  Un ou des défauts ont déjà été mentionnés dans un audit précédent et n'ont pas été corrigés ou amendés dans le livrable courant. 
+  Commentaire: Cette situation est inacceptable car elle remet en cause le processus d'évolution et le principe d'audit.

@@ -1,0 +1,10 @@
+uml-CQD-JNS-rev-JFE-4
+  accepterAcces
+  refusAccesAlarme
+  lecteurBadge
+  signalSonore
+  
+Commentaire
+  paul voulait entrer dans le batiment sans valider de badge
+  
+"Message: les informations sont maintenant sauvegardées"

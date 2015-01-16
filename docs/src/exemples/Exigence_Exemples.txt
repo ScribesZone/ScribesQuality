@@ -1,0 +1,31 @@
+  L'application ne fonctionne pas de 7H à 19H30 les jours ouvrés pour les bâtiments d'enseignement
+  Le droit d'accès d'une personne à un bâtiment est l'accès le plus souple des autorisations des groupes auquels elle appartient
+  On enregistre un journal d'activité d'une personne (accès aux bâtiments, etc..)
+  Le ou les gardiens surveille(nt) le fonctionnement continu du système
+  La réponse de la demande d'accès à un bâtiment ne doit pas être trop longue
+  Les utilisateurs permanents doivent en plus renseigner le bâtiment et numéro de leur bureau, leur numéro de téléphone professionnel ainsi que leur adresse électronique
+  on genere un badge et on l'insere dans la BD
+  Les périodes d'accès à un bâtiment sont définis soit pour un jour férié et/ou ouvré.
+  On peut enregistrer une alarme en cas d'incident suite à un déclanchement
+  On doit modifier les informations des personnes   (priorité : stable)
+  A la lecture d'un badge, on peut récupérer les informations dans le système central
+  Le logiciel de gestion du système pour le superviseur et les administrateurs doit avoir un temps de réponse normal
+  on genere un badge et on l'insere dans la BD
+  On renseigne son nom, prénom et le numéro de code lié au système d'accès. Et on y rajoute les infos complementaires selon son type d'apartenance (numero de bureau pour le personnel permanent, numero de carte d'etudiant pour les stagiaires...etc)  (priorité : stable)
+  Deux entrées successives déclenchent une alarme et créent un incident.
+  Le lecteur lit un badge
+  Le système central analyse et valide la demande, envoie les signaux adéquats pour l'affichage, pour débloquer la porte, la fermer et la rebloquer, ou envoyer les alarmes selon les diverses situations d'erreur
+  BatPubBatCtrl: Si un personne est entrée dans un bâtiment qui été en mode public, elle n'est autorisée à sortir que si ce bâtiment passe à l'état contrôlé et si la personne en question possède une autorisation d'accès pour la plage horaire correspondante.
+  Une autorisation doit être comprise dans les autorisations générales du bâtiment
+  Un utilisateur passe son badge avant d'entrer dans le bâtiment
+  A chaque passage, vérifier le sens de passage et que celui-ci est unique
+  Les droits de l'administrateur sont inclus dans ceux du superviseur
+  Il faut au moins un accès par bâtiment pour qu'il soit accessible
+  Un bâtiment doit avoir une fonctionalité ( ex : enseignement)
+  AjouterAlarme: Lorsqu'une alarme est declanchée, enregistrer l'alarme.
+  Gérer le materiel ( badges, points d'acces, ...) qui est deffectueux et doit être changé
+  badgeUnique: Une et une seule personne peut utiliser un même badge
+  Administrateur et Superviseur possède un compte avec mot de passe
+  Les ordinateurs présents dans les bâtiments sont eux aussi dotés d'un lecteur de badge
+  Remise Badge: Lorsqu'un badge est remis, la date et l'heure de remise sont indiquée / Durée Badge: Un bagde provisoire et possède une date-heure de fin de validité / Badge Provisoire: Un badge visiteur est valable une journée
+  Les utilisateurs du système sont très transitoirement des visiteurs.

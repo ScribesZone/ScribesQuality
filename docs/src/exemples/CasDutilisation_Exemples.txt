@@ -1,0 +1,17 @@
+#CasDUtilisation_Exemples
+
+  Le superviseur a pour rôle de gérer l'ensemble de la sécurité du système,
+ainsi que les fonctionnalités principales.
+
+  Un UtilisateurAvecBadge est un utilisateur qui utilise le système de point
+d'accès.
+
+  Gardien: Gardien du système
+  PersonneAvecBadge: Personne possédant un badge
+  Gardien: CreerAlarme
+  Gardien: ModifierAlarme
+  Gardien: CreerPersonne
+  Superviseur: AfficherBadge
+  Superviseur: AttacherBadge
+  
+  

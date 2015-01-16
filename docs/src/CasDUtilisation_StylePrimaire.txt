@@ -1,0 +1,6 @@
+#=CasDUtilisation_StylePrimaire
+$CUSeulementPrimaire:
+  Seuls les acteurs primaires doivent être representés dans les diagrammes de cas d'utilisation.
+
+  
+  

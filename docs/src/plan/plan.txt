@@ -1,0 +1,48 @@
+﻿Une version structurée et plus facilement exploitable de cette documentation est disponible sur [scribequality.readthedocs.org](http://scribequality.readthedocs.org).
+
+Cette page définit différentes règles de qualité pouvant être utilisées tout au long du cycle de vie du logiciel. Les règles sont rangées par paquetage, chaque paquetage correspond soit à une étape du cycle de vie ou sont au contraire transversaux. Certains paquetages correspondent à des règles vérifiées par des outils existants tel que Modelio ou StarUML. Utiliser la fonction "Search" de votre navigateur pour utiliser ce site.
+
+Cycle de vie
+============
+Les paquetages de règles ci-dessous correspondent à différentes étapes dans le cycle de vie du logiciel.
+
+Modelisation
+------------
+* [Glossaire](#glossaire)
+* [Exigence](#exigence)
+* [Systeme](#systeme)
+* [CasDUtilisation](#casdutilisation) 
+  * [CasDUtilisation_ModelePreliminaire](#casdutilisation_modelepreliminaire) 
+  * [CasDUtilisation_ModeleDetaille](#casdutilisation_modeledetaille) 
+  * [CasDUtilisation_StyleDecore](#casdutilisation_styledecore)
+  * [CasDUtilisation_StyleEssentiel](#casdutilisation_styleessentiel)
+  * [CasDUtilisation_StyleGaucheDroite:](#casdutilisation_stylegauchedroite:)
+  * [CasDUtilisation_StylePrimaire](#casdutilisation_styleprimaire)
+* [Scenario](#scenario)
+* [Sequence](#sequence)
+* [Valeur](#valeur)
+* [Tache](#tache) 
+* [Classe](#classe)
+* [Etat](#etat)
+* [Deploiement](#deploiement)
+
+Les paquetages ci-dessous sont liés à des outils :
+* [UMLModelio](#umlmodelio)
+* [UMLStarUML](#umlstaruml) 
+
+Implémentation
+--------------
+* [BaseDeDonnees](#basededonnees) 
+* [ProgrammationWeb](#programmationweb)
+
+Divers
+======
+Les paquetages de règles ci-dessous sont généralement orthogonaux au cycle de vie et peuvent être utilisé tout au long du projet.
+
+* [TexteTechnique](#textetechnique)
+* [Nomenclature](#nomenclature)
+* [Diagramme](#diagramme)
+* [Tracabilite](#tracabilite) 
+* [Document](#document)
+* [Livrable](#livrable)
+

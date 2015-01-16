@@ -1,0 +1,5 @@
+#= CasDUtilisation_StyleDecore
+
+$CUAuxiliaireDecore:
+  Le stéréotype auxilaire doit être associé aux acteurs auxillaires.
+

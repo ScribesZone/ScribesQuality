@@ -1,0 +1,66 @@
+#=Livrable
+
+$NomenclatureLivrable:
+  Le nom d'un ou de plusieurs ressources livrées n'est pas conforme aux règles spécifiées (cf $PackagingLivrable).
+  Commentaire: Les livraisons sont des points clés de la vie d'un produit logiciel et l'attention qui doit y être portée est extrème. Ne pas respecter des règles de nomenclature spécifiées auparavant est un problème important. D'une part cela montre que l'organisation productrice n'est pas capable de suivre des règles élémentaires, d'autre par cela rend impossible le traitement automatique des éléments livrés par l'organization cliente. 
+  Exemple: S'il a été demandé de livrer un seul fichier sous la forme CyberKebab-GXXX-Y.pdf ou XXX est le numéro d'un groupe et Y le numéro de livraison, alors CyberKebab-G203-2.pdf est valide mais Cyberkebab_210.pdf ne l'est pas. Si l'organisation client doit gérer de multiples livraisons il est fort à parier que des scripts automatisent certaines parties. Ne pas respecter les conventions peut lier à des problèmes plus où moins importants.
+
+$DelaiLivrable:
+  Le ou les délais de livraison n'ont pas été respectés.
+
+$FormatLivrable:
+  Le format des ressources livrées n'est pas conforme aux attentes (cf $PackagingLivrable).
+  
+$DescriptifLivrable:
+  Le descriptif d'un ou plusieurs livrable est manquant, incomplet ou incohérent.
+  Commentaire: Dans le cas où un livrable composite est livré, c'est à dire que le livrable est formé de différents artefacts, par exemple rassemblés dans une archive, il est indispensable d'ajoindre un descriptif du contenu du livrable en mentionnant quels sont les artefacts livrés mais également les relations qui les lient. Ce descriptif peut prendre la forme d'un fichier "README", d'un manifeste, ou de tout autre artefact clairement identifiable.
+
+$PackagingLivrable:
+  Le packaging du livrable, c'est à dire la manière dont les différents artéfacts ou éléments on été assemblés et conditionnés ne correspond pas aux attentes, ne sont pas conforme aux éventuels critères spécifiés ou requière de la part du client un effort supplémentaire de conditionnement ou déconditionnement qui doit lui être épargné. 
+  Commentaire: L'activité de packaging est à la charge du producteur et non pas à celle du client. Ce dernier est en droit est droit d'attendre un produit livré, assemblé, conditionné, et généralement directement utilisable. C'est le client qui connait mieux le produit qu'il livre, sa structure et ses composants, et c'est à lui que revient l'effort du packaging car cela fait partie intégrante de la production.   
+  Exemple: Si un fichier .pdf est demandé ou une structure précise en terme de fichiers dans une archive .zip est demandé, il est absolument indispensable de respecter ces consignes et de livrer ce qui est demandé sous la forme demandée.
+
+$NonLivre:
+  Un ou des artefacts, ou des parties d'artefacts non pas été livrés et la livraison n'est donc pas conforme aux résultats attendus.
+
+$Auteur:
+  Le ou les auteurs du document, qu'il s'agisse de personnes physiques ou morale, ne sont pas indiquées clairement ou de manière appropriées.
+
+$Copyright:
+  Les indications de copyrights associées livrées sont inappropriées, trop imprécises ou manquantes, ou ne peuvent pas être clairement associées à une ou plusieurs des ressources livrées.
+  
+$DefautDejaMentionne:
+  Un ou des défauts ont déjà été mentionnés dans un audit précédent et n'ont pas été corrigés ou amendés dans le livrable courant. 
+  Commentaire: Cette situation est inacceptable car elle remet en cause le processus d'évolution et le principe même d'audit. Si les défauts détectés au cours des audits successives ne sont pas commentés, pris en compte ou corrigés, ils risquent d'être impossible de converger vers un produit final de qualité. Par ailleurs, les audits ayant un coût non négligeable, devoir redétecter des défauts déjà mentionnés constitue à la fois une perte de temps pour l'équipe qualité, mais marque également une dégradation de la confiance par rapport à la capacité de l'équipe de production de délivrer un produit final. 
+
+$Date:
+  Une des dates mentionnées semble être incorrectes, non mise à jours, ou une date semble manquante.  
+
+#== Version
+
+$GestionDeVersions:
+  La gestion des versions semble inexistante, instatisfaisante ou présente des défaults.
+  Commentaire: La gestion de versions est un des aspects essentiels pour la réussite des projets. La gestion de version est l'un des éléments essentiels pour passer du niveau initial et "chaotique" au niveau répétable du modèle CMM. Il existe de nombreux cas documentés de projets de grande envergure dont l'échec à été directement pu être directement et explicitement relié à l'absence d'une gestion de versions cohérente et systèmatique.
+
+$VersionLivrable:
+  L'identification de la version du livrable semble être manquant, incorrect ou inadapté au status de livrable.
+  Commentaire: Il est important de distinguer le système de versionnement pour les artefacts internes au projet (par exemple le code source, les modèles, etc), du système de versionnement utilisé pour les livraisons. Ce dernier système etant exposé à l'exterieur et visible par des tierces parties, un soin particulier doit être apportés aux interprétations pouvant être associés à ce système et aux identifiants correspondants. (cf $GestionDeVersions)
+
+$MiseAJourVersion:
+  Un numéro de version est incorrect ou ne semble pas avoir mis à jour, ce qui est un problème essentiel du point de vue de la gestion de versions (cf $GestionDeVersions).
+
+$ResumeModifications:
+  Le ou les artefacts devraient contenir un résumé des modifications apportées. Si c'est déjà le cas, le résumé pas assez structuré, trop ou pas assez précis, ou plus généralement inadapté au contexte courant.
+  Commentaire: Le ou les artefacts peuvent utilement comporter différents deltas in situ (cf. $Deltas), mais leur dissemination dans les artefacts et leur nombre rend généralement nécessaire l'ajout d'un résumé des modifications. Ce résumé peut de plus comporter des éléments décrivant l'intention des modifications, alors que les deltas sont généralement seulement des éléments factuels concernant les différences entre versions successives.  
+
+$Deltas:
+  Les "deltas" entre versions ne sont pas indiqués de manière appropriée.
+  Commentaire: Dans le cadre de l'évolution d'un document et de relectures successives par exemple, il est nécessaire de mentionner quelles modifications ont été apportées. Contrairement au résumé des modifications (cf $ResumeModifications) qui est localisé à un endroit pré-défini et qui peut mentionner l'intention des modifications, les deltas montrent ces modifications in situ dans le corps d'un ou de plusieurs artefacts (cf ResumeModifications). Concrétemment il s'agit de signaler les éléments ajoutés, modifiés ou supprimés. Différentes techniques peuvent être utilisées selon le granularité des éléments considérés et le type des d'artefacts considérés (cf $DeltasTextuels)(cf $DeltasGraphiques).
+
+$DeltasTextuels:
+  Les parties du texte ayant été ajoutées/supprimées/modifiées devraient être rendus explicites dans le corps du document ou du texte considéré.
+  Commentaire: Ceci se fait traditionnellement via du surlignage, des textes barrés, des "barres de marges", etc. Dans le cas de modifications plus importantes il peut être utile d'utiliser des balises de début et de fin d'ajout par exemple. Les editeurs de documents classiques tel qu'OpenOffice ou Word permettent propose généralement des options de "suivi des modifications". 
+
+$DeltasGraphiques:
+  Les éléments d'un graphique ayant été ajoutés/supprimés/modifiés devraient être rendus explicites.
+  Commentaire: Utiliser par exemples des couleurs ou des notes associés aux éléments graphiques. Il peut être nécessaire de fournir une légende (par exemple en début de document ou dans un contexte global) pour que les conventions utilisées soient comprises de tous.

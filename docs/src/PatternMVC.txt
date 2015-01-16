@@ -1,0 +1,6 @@
+$RoleDansPatron:
+  Le role joué par un objet ou une classe dans le patron n'est pas facilement identifiable.
+
+$InteractionProscrite:
+  Une ou des interactions entre couches ne sont pas conformes aux règles établies par le patron.
+  Commentaire: Dans certaines versions du patron MVC les controleurs jouent les intermediaires entre les modeles et les vues et les interactions directes entre ces couches sont interdites. Les modèles doivent être complétement indépendants des autres couches et donc ne connaître ni les controleurs, ni les vues mais peuvent intégagir entre eux. Les vues ou interfaces, qu'elles correspondent à des dispositifs d'entrée, de sorties, à des actuateurs ou à des capteurs, peuvent intéragir entre elles ou avec des controleurs. Les controleurs peuvent intéragir avec les controleurs, les vues et les modèles et jouent donc un rôle central. 

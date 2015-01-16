@@ -1,0 +1,14 @@
+Nom d'état
+  Porte 
+    créée
+    verouillée
+    ouverte
+
+    ENPanne
+    ENCoursDeDOuverTURE
+    ouvertURE
+
+  PorteurDeBadge
+    groupeAffecté 
+		badgeAffecté
+		dansUnBatiment

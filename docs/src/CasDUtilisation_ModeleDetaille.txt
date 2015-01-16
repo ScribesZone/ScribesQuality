@@ -1,0 +1,12 @@
+#=CasDUtilisation_ModeleDetaille
+# Alternative: CasDUtilisation_ModelePreliminaire
+
+$RelationsCUIncoherentes:
+  Les relations de dépendences <<includes>> et <<extends>> existant entre cas d'utilisations ne sont pas cohérentes avec les descriptions détaillées de ceux-ci
+  
+$IncludeMultiple:
+  Un cas d'utilisation inclu via une relation dépendence <<includes>> doit l'être dans au moins deux cas d'utilisation.
+  
+  
+  
+  
