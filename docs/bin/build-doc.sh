@@ -96,12 +96,12 @@ gawk '
 
     function print_fullRule_RST(rulename, OUT) {
       print_header_with_anchor("rule",rulename,"-", OUT)
-      print "paquetage: " reference_RST("package",RULE_TO_PACKAGE[rulename]) "  " >> OUT
       print ""  >> OUT
       text = RULE_TO_TEXTS[rulename]
       print gsub(/^ */,"",text)
       text = gensub(/\* \*\*([^:]+):\*\*/,":\\1:","g",text)
       print text >> OUT ;
+      print "\n:paquetage: " reference_RST("package",RULE_TO_PACKAGE[rulename]) "  " >> OUT
 
     }
 
