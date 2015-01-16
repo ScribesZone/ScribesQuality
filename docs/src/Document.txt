@@ -20,8 +20,7 @@ $PlanDesequilibreEnPages:
   Le plan du document doit être mieux équilibré en terme de longueur relative des sections en termes de pages. 
   Commentaire: Dans la pluspart des documents les sections rédigées qui constituent le corps du document doivent être de taille relativement similaire en nombre de pages. Sont exclues de cette règle les sections particulières comme les annexes, les introductions, les conclusions, les sections techniques telles que les abbréviations, les sections automatiquement générées par un outil, etc.
   Commentaire: Lors de l'évaluation d'un plan (et plus généralement d'un document), vérifier que le plan est équilibré est une opération aisé. Ce défaut sera donc souvent détecté si l'on n'y prend garde.
-  Exemple: Sur un document de 70 pages on évitera par exemple d'avoir une section 3 rédigée de 50 pages 
-(section 3) suivie d'une section 4 de 6 pages car cela refléte souvent une mauvaise organisation du contenu. Ici la section 3 représente plus des 2/3 du documents et elle devrait sans doute être scindée. Les sous sections 3.1, 3.2, 3.3 pourrait être "remontées" d'un niveau (e.g. 3, 4, 5), quitte à ajouter auparavant une section expliquant le contenu de chacune de ces sections. Une telle opération peut régler les problèmes associés à un plan trop profond (cf $PlanTropProfond) ou à un plan déséqulibré en profondeur (cf $PlanDesequilibreEnProfondeur).
+  Exemple: Sur un document de 70 pages on évitera par exemple d'avoir une section 3 rédigée de 50 pages (section 3) suivie d'une section 4 de 6 pages car cela refléte souvent une mauvaise organisation du contenu. Ici la section 3 représente plus des 2/3 du documents et elle devrait sans doute être scindée. Les sous sections 3.1, 3.2, 3.3 pourrait être "remontées" d'un niveau (e.g. 3, 4, 5), quitte à ajouter auparavant une section expliquant le contenu de chacune de ces sections. Une telle opération peut régler les problèmes associés à un plan trop profond (cf $PlanTropProfond) ou à un plan déséqulibré en profondeur (cf $PlanDesequilibreEnProfondeur).
 
 $PlanDesequilibreEnProfondeur:
   La hierarchie des sections et sous sections n'est pas suffisemment "balancée" et certaines sous sections sont par exemple profondes alors que d'autres sont très plates.
@@ -70,7 +69,7 @@ $NumerotationSection:
 #== Figures
 
 $IndexDesFigures:
-  Un index des figures doit être inclus dans le document.
+  Un index des figures doit être inclu dans le document.
   
 $TitreFigure:
   Une ou des figures n'ont pas de titres ou leurs titres ne sont pas appropriés, ou explicite par exemple parceque le titre de la figure sera difficile à interpréter dans l'index des figures par exemple.
@@ -92,7 +91,7 @@ $ResolutionFigure:
 
 #== Tables
 $IndexDesTables:
-    Un index des tavles doit être inclus dans le document.
+    Un index des tables doit être inclu dans le document.
 
   
   

@@ -18,7 +18,6 @@ $NomRelationGlossaire:
 $NomColonne:
   Dans une relation, le nom de chaque colonne doit correspondre à une forme nominale correspondant à l'attribut ou au concept représenté, sauf eventuellement pour les colonnes représentant une valeur booléenne auxquel cas une forme verbale peut être acceptable. Par ailleurs les termes utilisés dans le nom doivent être définis dans le glossaire. Si une abbréviation est utilisée celle-ci devra être impérativement définie dans le glossaire.
   Exemple: "adresse", "estArrive"
-  Commentaire
 
 $NomenclatureColonne:
   Le nom d'une relation doit être en style minMaj (cf $minMaj).

@@ -34,8 +34,7 @@ $ArticleInDefini:
   Un article défini est utilisé (par exemple "le", "au", ...) sans que le ou les objets referencés soit clairement identifiés ou un article indéfini est utilisé (par exemple "un" , "des" , ...) alors que ce devrait être un article défini.
 
 $RerefenceAmbigue:
-  Une référence ambigüe est faite à un objet. Ce peut être une référence via un article défini (e.g. "le"),
-  une référence temporelle (p.e. "le jour", "auparavant"), etc. 
+  Une référence ambigüe est faite à un objet. Ce peut être une référence via un article défini (e.g. "le"), une référence temporelle (p.e. "le jour", "auparavant"), etc.
 
 $Vocabulaire:
   L'utilisation des termes utilisés ne semble pas systèmatique ou il est difficile de déterminer quelles combinaisons de termes sont spécifiques au domaine considéré ou l'utilisation de synonymes et/ou de paraphrases est inadapté. 
@@ -45,9 +44,6 @@ $Glossaire:
   
 $TermeMetier:
   Un ou des termes utilisés ne semble(nt) pas être conformes au vocabulaire utilisé par les experts membres du métier considéré ou un terme plus précis semble être disponible dans ce domaine.
-
-$Identificateur: 
-  Les identificateurs doivent être clairs et compréhensibles en dehors de leur contexte immédiat. Ils doivent reflêter les objets auquels ils font références.
 
 $Temps:
   Le temps (passé, présent, futur ...) ou la modalité (devoir, pouvoir, savoir, ...) associé à un ou plusieurs éléments de la phrase est inadapté, incorrect, flou, et/ou à préciser.  
@@ -64,8 +60,8 @@ $ImbricationInutile:
 $TexteSection:
   Les titres des sections et de sous-sections ne doivent s'enchainer sans qu'un texte d'introduction ou de liaison ne les séparent.
 
-$Trigramme: 
-  L'utilisation systématique des trigrammes est nécessaire à chaque fois qu'une référence est faite à une partie prenante.
+$ReferenceTrigramme:
+  L'utilisation systématique des trigrammes (cf $Trigramme) est nécessaire à chaque fois qu'une référence est faite à une partie prenante.
 
 $Justification:
   L'information fournie n'est pas claire ou n'est pas justifiée. 

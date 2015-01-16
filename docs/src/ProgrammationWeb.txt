@@ -1,11 +1,9 @@
 #= ProgrammationWeb
 # Ce fichier est en cours de construction
 
-#==
-
 $NomPageJSP:
-  ... TBD ...
+  TODO
 
 $NomFichierCSS:
-  ... TBD ...
+  TODO
   

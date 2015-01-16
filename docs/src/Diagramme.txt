@@ -32,16 +32,4 @@ $ContenuHeterogene:
   Exemple: Si un modèle de cas d'utilisation est complexe, différents diagrammes de cas d'utilisation doivent certainement être créés. La manière de regrouper les différents cas d'utilisation en diagrammes doit pouvoir être justifié. 
 
 $TypeDeDiagramme:
-  Le type de diagramme n'est pas explicite. 
-  Commentaire: On peut par exemple considérer les types de diagrammes suivants: 
-  DiagCU     = Diagramme de Cas d'Utilisation
-  DiagDep    = Diagramme de Déploiement
-  DiagCls    = Diagramme de Classes
-  DiagObj    = Diagramme d'Objets
-  DiagSeq    = Diagramme de Séquences
-  DiagSeqExt = Diagramme de Séquences Externe
-  DiagSeqInt = Diagramme de Séquence Interne
-  DiagComInt = Diagramme de Communication Interne
-  DiagEtat   = Diagramme d'Etat
-  DiagAct    = Diagramme d'Activité  
-  
+  Le type de diagramme n'est pas explicite.
