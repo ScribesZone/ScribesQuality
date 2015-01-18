@@ -6,7 +6,8 @@ HEADERFILE=${THISDIR?}/../src/plan/plan.txt
 OUTDIR=${THISDIR?}/..
 OUTFILE=${OUTDIR?}/index.md
 
-echo `ls $SRCFILESPATTERN | wc -l` source files 
+echo `ls $SRCFILESPATTERN | wc -l` source files
+ls $SRCFILESPATTERN
 
 cat ${HEADERFILE?} > ${OUTFILE?}
 

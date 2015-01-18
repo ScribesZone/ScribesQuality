@@ -1,3 +1,5 @@
+C:\cygwin64\bin\bash bin\build-doc.sh
+
 @ECHO OFF
 
 REM Command file for Sphinx documentation
