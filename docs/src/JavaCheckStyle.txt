@@ -1,0 +1,442 @@
+#=JavaCheckStyle
+
+$JavaAbbreviationAsWordInName:
+  The Check validate abbreviations(consecutive capital letters) length in identifier name, it also allow in enforce camel case naming.
+
+$JavaAbstractClassName:
+  Ensures that the names of abstract classes conforming to some regular expression.
+
+$JavaAnnotationLocation:
+  Check location of annotation on language elements.
+
+$JavaAnnotationUseStyle:
+  This check controls the style with the usage of annotations.
+
+$JavaAnonInnerLength:
+  Checks for long anonymous inner classes.
+
+$JavaArrayTrailingComma:
+  Checks if array initialization contains optional trailing comma.
+
+$JavaArrayTypeStyle:
+  Checks the style of array type definitions.
+
+$JavaAtclauseOrder:
+  Checks the order of at-clauses.
+
+$JavaAvoidEscapedUnicodeCharacters:
+  Restrict using Unicode escapes.
+
+$JavaAvoidInlineConditionals:
+  Detects inline conditionals.
+
+$JavaAvoidNestedBlocks:
+  Finds nested blocks.
+
+$JavaAvoidStarImport:
+  Check that finds import statements that use the * notation.
+
+$JavaAvoidStaticImport:
+  Check that finds static imports.
+
+$JavaBooleanExpressionComplexity:
+  Restricts nested boolean operators (&&, ||, &, | and ^) to a specified depth (default = 3).
+
+$JavaClassDataAbstractionCoupling:
+  This metric measures the number of instantiations of other classes within the given class.
+
+$JavaClassFanOutComplexity:
+  The number of other classes a given class relies on.
+
+$JavaClassTypeParameterName:
+  Checks that class type parameter names conform to a format specified by the format property.
+
+$JavaConstantName:
+  Checks that constant names conform to a format specified by the format property.
+
+$JavaCovariantEquals:
+  Checks that if a class defines a covariant method equals, then it defines method equals(java.lang.Object).
+
+$JavaCustomImportOrder:
+  Checks that the groups of import declarations appear in the order specified by the user.
+
+$JavaCyclomaticComplexity:
+  Checks cyclomatic complexity against a specified limit.
+
+$JavaDeclarationOrder:
+  Checks that the parts of a class or interface declaration appear in the order suggested by the Code Conventions for the Java Programming Language 
+
+$JavaDefaultComesLast:
+  Check that the default is after all the cases in a switch statement.
+
+$JavaDescendantToken:
+  Checks for restricted tokens beneath other tokens.
+
+$JavaDesignForExtension:
+  Checks that classes are designed for inheritance.
+
+$JavaEmptyBlock:
+  Checks for empty blocks.
+
+$JavaEmptyForInitializerPad:
+  Checks the padding of an empty for initializer; that is whether a space is required at an empty for initializer, or such spaces are forbidden.
+
+$JavaEmptyForIteratorPad:
+  Checks the padding of an empty for iterator; that is whether a space is required at an empty for iterator, or such spaces are forbidden.
+
+$JavaEmptyLineSeparator:
+  Checks for blank line separators.
+
+$JavaEmptyStatement:
+  Detects empty statements (standalone ';').
+
+$JavaEqualsAvoidNull:
+  Checks that any combination of String literals with optional assignment is on the left side of an equals() comparison.
+
+$JavaEqualsHashCode:
+  Checks that classes that override equals() also override hashCode().
+
+$JavaExecutableStatementCount:
+  Restricts the number of executable statements to a specified limit (default = 30).
+
+$JavaExplicitInitialization:
+  Checks if any class or object member explicitly initialized to default for its type value (null for object references, zero for numeric types and char and false for boolean.
+
+$JavaFallThrough:
+  Checks for fall through in switch statements Finds locations where a case contains Java code - but lacks a break, return, throw or continue statement.
+
+$JavaFileLength:
+  Checks for long source files.
+
+$JavaFileTabCharacter:
+  Checks to see if a file contains a tab character.
+
+$JavaFinalClass:
+  Checks that class which has only private ctors is declared as final.
+
+$JavaFinalLocalVariable:
+  Ensures that local variables that never get their values changed, must be declared final.
+
+$JavaFinalParameters:
+  Check that method/constructor/catch/foreach parameters are final.
+
+$JavaGenericWhitespace:
+  Checks that the whitespace around the Generic tokens < and > are correct to the typical convention.
+
+$JavaHeader:
+  Checks the header of the source against a fixed header file.
+
+$JavaHiddenField:
+  Checks that a local variable or a parameter does not shadow a field that is defined in the same class.
+
+$JavaHideUtilityClassConstructor:
+  Make sure that utility classes (classes that contain only static methods) do not have a public constructor.
+
+$JavaIllegalCatch:
+  Catching java.lang.Exception, java.lang.Error or java.lang.RuntimeException is almost never acceptable.
+
+$JavaIllegalImport:
+  Checks for imports from a set of illegal packages.
+
+$JavaIllegalInstantiation:
+  Checks for illegal instantiations where a factory method is preferred.
+
+$JavaIllegalThrows:
+  Throwing java.lang.Error or java.lang.RuntimeException is almost never acceptable.
+
+$JavaIllegalToken:
+  Checks for illegal tokens.
+
+$JavaIllegalTokenText:
+  Checks for illegal token text.
+
+$JavaIllegalType:
+  Checks that particular class are never used as types in variable declarations, return values or parameters.
+
+$JavaImportControl:
+  Check that controls what packages can be imported in each package.
+
+$JavaImportOrder:
+  Ensures that groups of imports come in a specific order.
+
+$JavaIndentation:
+  Checks correct indentation of Java Code.
+
+$JavaInnerAssignment:
+  Checks for assignments in subexpressions, such as in String s = Integer.toString(i = 2);.
+
+$JavaInnerTypeLast:
+  Check nested (internal) classes/interfaces are declared at the bottom of the class after all method and field declarations.
+
+$JavaInterfaceIsType:
+  Implements Bloch, Effective Java, Item 17 - Use Interfaces only to define types.
+
+$JavaInterfaceTypeParameterName:
+  Checks that interface type parameter names conform to a format specified by the format property.
+
+$JavaJavaNCSS:
+  This check calculates the Non Commenting Source Statements (NCSS) metric for Java source files and methods.
+
+$JavaJavadocMethod:
+  Checks the Javadoc of a method or constructor.
+
+$JavaJavadocPackage:
+  Checks that all packages have a package documentation.
+
+$JavaJavadocTagContinuationIndentation:
+  Checks the indentation of the continuation lines in at-clauses.
+
+$JavaJavadocParagraph:
+  Checks Javadoc paragraphs.
+
+$JavaJavadocStyle:
+  Custom Checkstyle Check to validate Javadoc.
+
+$JavaJavadocType:
+  Checks the Javadoc of a type.
+
+$JavaJavadocVariable:
+  Checks that a variable has Javadoc comment.
+
+$JavaLeftCurly:
+  Checks the placement of left curly braces on types, methods and other blocks:
+
+$JavaLineLength:
+  Checks for long lines.
+
+$JavaLocalFinalVariableName:
+  Checks that local final variable names conform to a format specified by the format property.
+
+$JavaLocalVariableName:
+  Checks that local, non-final variable names conform to a format specified by the format property.
+
+$JavaMagicNumber:
+  Checks for magic numbers.
+
+$JavaMemberName:
+  Checks that instance variable names conform to a format specified by the format property.
+
+$JavaMethodCount:
+  Checks the number of methods declared in each type.
+
+$JavaMethodLength:
+  Checks for long methods.
+
+$JavaMethodName:
+  Checks that method names conform to a format specified by the format property.
+
+$JavaMethodParamPad:
+  Checks the padding between the identifier of a method definition, constructor definition, method call, or constructor invocation; and the left parenthesis of the parameter list.
+
+$JavaMethodTypeParameterName:
+  Checks that class type parameter names conform to a format specified by the format property.
+
+$JavaMissingCtor:
+  Checks that classes (except abstract one) define a ctor and don't rely on the default one.
+
+$JavaMissingDeprecated:
+  This class is used to verify that both the
+
+$JavaMissingOverride:
+  This class is used to verify that the
+
+$JavaMissingSwitchDefault:
+  Checks that switch statement has "default" clause.
+
+$JavaModifiedControlVariable:
+  Check for ensuring that for loop control variables are not modified inside the for block.
+
+$JavaModifierOrder:
+  Checks that the order of modifiers conforms to the suggestions in the Java Language specification, sections 8.1.1, 8.3.1 and 8.4.3.
+
+$JavaMultipleStringLiterals:
+  Checks for multiple occurrences of the same string literal within a single file.
+
+$JavaMultipleVariableDeclarations:
+  Checks that each variable declaration is in its own statement and on its own line.
+
+$JavaMutableException:
+  Ensures that exceptions (defined as any class name conforming to some regular expression) are immutable.
+
+$JavaNPathComplexity:
+  Checks the npath complexity against a specified limit (default = 200).
+
+$JavaNeedBraces:
+  Checks for braces around code blocks.
+
+$JavaNestedForDepth:
+  Restricts nested for blocks to a specified depth (default = 1).
+
+$JavaNestedIfDepth:
+  Restricts nested if-else blocks to a specified depth (default = 1).
+
+$JavaNestedTryDepth:
+  Restricts nested try-catch-finally blocks to a specified depth (default = 1).
+
+$JavaNewlineAtEndOfFile:
+  Checks that there is a newline at the end of each file.
+
+$JavaNoClone:
+  Checks that the clone method is not overridden from the Object class.
+
+$JavaNoFinalizer:
+  Checks that no method having zero parameters is defined using the name finalize.
+
+$JavaNonEmptyAtclauseDescription:
+  Checks that the at-clause tag is followed by description .
+
+$JavaNoLineWrap:
+  Checks that chosen statements are not line-wrapped.
+
+$JavaNoWhitespaceAfter:
+  Checks that there is no whitespace after a token.
+
+$JavaNoWhitespaceBefore:
+  Checks that there is no whitespace before a token.
+
+$JavaOneStatementPerLine:
+  Checks there is only one statement per line.
+
+$JavaOneTopLevelClass:
+  Checks that each top-level class, interfaces or enum resides in a source file of its own.
+
+$JavaOperatorWrap:
+  Checks line wrapping for operators.
+
+$JavaOuterTypeFilename:
+  Checks that the outer type name and the file name match.
+
+$JavaOuterTypeNumber:
+  Checks for the number of defined types at the "outer" level.
+
+$JavaPackageAnnotation:
+  This check makes sure that all package annotations are in the package-info.java file.
+
+$JavaPackageDeclaration:
+  Ensures there is a package declaration and (optionally) in the correct directory.
+
+$JavaPackageName:
+  Checks that package names conform to a format specified by the format property.
+
+$JavaParameterAssignment:
+  Disallow assignment of parameters.
+
+$JavaParameterName:
+  Checks that parameter names conform to a format specified by the format property.
+
+$JavaParameterNumber:
+  Checks the number of parameters that a method or constructor has.
+
+$JavaParenPad:
+  Checks the padding of parentheses; that is whether a space is required after a left parenthesis and before a right parenthesis, or such spaces are forbidden, with the exception that it does not check for padding of the right parenthesis at an empty for iterator.
+
+$JavaRedundantImport:
+  Checks for imports that are redundant.
+
+$JavaRedundantModifier:
+  Checks for redundant modifiers in interface and annotation definitions.
+
+$JavaRegexp:
+  A check that makes sure that a specified pattern exists (or not) in the file.
+
+$JavaRegexpHeader:
+  Checks the header of the source against a header file that contains a
+
+$JavaRegexpMultiline:
+  Implementation of a check that looks that matches across multiple lines in any file type.
+
+$JavaRegexpSingleline:
+  Implementation of a check that looks for a single line in any file type.
+
+$JavaRegexpSinglelineJava:
+  Implementation of a check that looks for a single line in Java files.
+
+$JavaRequireThis:
+  Checks that code doesn't rely on the "this" default.
+
+$JavaReturnCount:
+  Restricts return statements to a specified count (default = 2).
+
+$JavaRightCurly:
+  Checks the placement of right curly braces.
+
+$JavaSeparatorWrap:
+  Checks line wrapping with separators.
+
+$JavaSingleLineJavadoc:
+  Checks that a JavaDoc block which can fit on a single line and doesn't contain at-clauses
+
+$JavaSimplifyBooleanExpression:
+  Checks for overly complicated boolean expressions.
+
+$JavaSimplifyBooleanReturn:
+  Checks for overly complicated boolean return statements.
+
+$JavaStaticVariableName:
+  Checks that static, non-final variable names conform to a format specified by the format property.
+
+$JavaStringLiteralEquality:
+  Checks that string literals are not used with == or !=.
+
+$JavaSummaryJavadoc:
+  Checks that Javadoc summary sentence does not contain phrases that are not recommended to use.
+
+$JavaSuperClone:
+  Checks that an overriding clone() method invokes super.clone().
+
+$JavaSuperFinalize:
+  Checks that an overriding finalize() method invokes super.finalize().
+
+$JavaSuppressWarnings:
+  This check allows you to specify what warnings that
+
+$JavaSuppressWarningsHolder:
+  This check allows for finding code that should not be reported by Checkstyle
+
+$JavaThrowsCount:
+  Restricts throws statements to a specified count (default = 1).
+
+$JavaTodoComment:
+  A check for TODO comments.
+
+$JavaTrailingComment:
+  The check to ensure that requires that comments be the only thing on a line.
+
+$JavaTranslation:
+  The TranslationCheck class helps to ensure the correct translation of code by checking property files for consistency regarding their keys.
+
+$JavaTypeName:
+  Checks that type names conform to a format specified by the format property.
+
+$JavaTypecastParenPad:
+  Checks the padding of parentheses for typecasts.
+
+$JavaUncommentedMain:
+  Detects uncommented main methods.
+
+$JavaUniqueProperties:
+  Detects duplicated keys in properties files.
+
+$JavaUnnecessaryParentheses:
+  Checks if unnecessary parentheses are used in a statement or expression.
+
+$JavaUnusedImports:
+  Checks for unused import statements.
+
+$JavaUpperEll:
+  Checks that long constants are defined with an upper ell.
+
+$JavaVariableDeclarationUsageDistance:
+  Checks the distance between declaration of variable and its first usage.
+
+$JavaVisibilityModifier:
+  Checks visibility of class members.
+
+$JavaWhitespaceAfter:
+  Checks that a token is followed by whitespace, with the exception that it does not check for whitespace after the semicolon of an empty for iterator.
+
+$JavaWhitespaceAround:
+  Checks that a token is surrounded by whitespace.
+
+$JavaWriteTag:
+  Outputs a JavaDoc tag as information.

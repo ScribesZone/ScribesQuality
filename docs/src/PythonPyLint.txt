@@ -1,0 +1,539 @@
+#=PythonPyLint
+
+
+$Python0102:
+  Black listed name ""%s""
+
+$Python0103:
+  Invalid %s name ""%s""
+
+$Python0111:
+  Missing %s docstring
+
+$Python0112:
+  Empty %s docstring
+
+$Python0121:
+  Missing required attribute ""%s""
+
+$Python0202:
+  Class method %s should have cls as first argument
+
+$Python0203:
+  Metaclass method %s should have mcs as first argument
+
+$Python0204:
+  Metaclass class method %s should have %s as first argument
+
+$Python0301:
+  Line too long (%s/%s)
+
+$Python0302:
+  Too many lines in module (%s)
+
+$Python0303:
+  Trailing whitespace
+
+$Python0304:
+  Final newline missing
+
+$Python0321:
+  More than one statement on a single line
+
+$Python0322:
+  Old: Operator not preceded by a space
+
+$Python0323:
+  Old: Operator not followed by a space
+
+$Python0324:
+  Old: Comma not followed by a space
+
+$Python0325:
+  Unnecessary parens after %r keyword
+
+$Python0326:
+  %s space %s %s %s\n%s
+
+$Python1001:
+  Old-style class defined.
+
+$Python0001:
+  (syntax error raised for a module; message varies)
+
+$Python0011:
+  Unrecognized file option %r
+
+$Python0012:
+  Bad option value %r
+
+$Python0100:
+  __init__ method is a generator
+
+$Python0101:
+  Explicit return in __init__
+
+$Python0102:
+  %s already defined line %s
+
+$Python0103:
+  %r not properly in loop
+
+$Python0104:
+  Return outside function
+
+$Python0105:
+  Yield outside function
+
+$Python0106:
+  Return with argument inside generator
+
+$Python0107:
+  Use of the non-existent %s operator
+
+$Python0108:
+  Duplicate argument name %s in function definition
+
+$Python0202:
+  An attribute affected in %s line %s hide this method
+
+$Python0203:
+  Access to member %r before its definition line %s
+
+$Python0211:
+  Method has no argument
+
+$Python0213:
+  Method should have ""self"" as first argument
+
+$Python0221:
+  Interface resolved to %s is not a class
+
+$Python0222:
+  Missing method %r from %s interface
+
+$Python0235:
+  __exit__ must accept 3 arguments: type, value, traceback
+
+$Python0501:
+  Old: Non ascii characters found but no encoding specified (PEP 263)
+
+$Python0502:
+  Old: Wrong encoding specified (%s)
+
+$Python0503:
+  Old: Unknown encoding specified (%s)
+
+$Python0601:
+  Using variable %r before assignment
+
+$Python0602:
+  Undefined variable %r
+
+$Python0603:
+  Undefined variable name %r in __all__
+
+$Python0604:
+  Invalid object %r in __all__, must contain only strings
+
+$Python0611:
+  No name %r in module %r
+
+$Python0701:
+  Bad except clauses order (%s)
+
+$Python0702:
+  Raising %s while only classes, instances or string are allowed
+
+$Python0710:
+  Raising a new style class which doesn't inherit from BaseException
+
+$Python0711:
+  NotImplemented raised - should raise NotImplementedError
+
+$Python0712:
+  Catching an exception which doesn\'t inherit from BaseException: %s
+
+$Python1001:
+  Use of __slots__ on an old style class
+
+$Python1002:
+  Use of super on an old style class
+
+$Python1003:
+  Bad first argument %r given to super()
+
+$Python1004:
+  Missing argument to super()
+
+$Python1101:
+  %s %r has no %r member
+
+$Python1102:
+  %s is not callable
+
+$Python1103:
+  %s %r has no %r member (but some types could not be inferred)
+
+$Python1111:
+  Assigning to function call which doesn't return
+
+$Python1120:
+  No value passed for parameter %s in function call
+
+$Python1121:
+  Too many positional arguments for function call
+
+$Python1122:
+  Old: Duplicate keyword argument %r in function call
+
+$Python1123:
+  Passing unexpected keyword argument %r in function call
+
+$Python1124:
+  Parameter %r passed as both positional and keyword argument
+
+$Python1125:
+  Old: Missing mandatory keyword argument %r
+
+$Python1200:
+  Unsupported logging format character %r (%#02x) at index %d
+
+$Python1201:
+  Logging format string ends in middle of conversion specifier
+
+$Python1205:
+  Too many arguments for logging format string
+
+$Python1206:
+  Not enough arguments for logging format string
+
+$Python1300:
+  Unsupported format character %r (%#02x) at index %d
+
+$Python1301:
+  Format string ends in middle of conversion specifier
+
+$Python1302:
+  Mixing named and unnamed conversion specifiers in format string
+
+$Python1303:
+  Expected mapping for format string, not %s
+
+$Python1304:
+  Missing key %r in format string dictionary
+
+$Python1305:
+  Too many arguments for format string
+
+$Python1306:
+  Not enough arguments for format string
+
+$Python1310:
+  Suspicious argument in %s.%s call
+
+$Python0001:
+  (error prevented analysis; message varies)
+
+$Python0002:
+  %s: %s (message varies)
+
+$Python0003:
+  ignored builtin module %s
+
+$Python0004:
+  unexpected inferred value %s
+
+$Python0010:
+  error while code parsing: %s
+
+$Python0202:
+  Unable to check methods signature (%s / %s)
+
+$Python0220:
+  failed to resolve interfaces implemented by %s (%s)
+
+$Python0321:
+  Old: Format detection error in %r
+
+$Python0401:
+  Unable to import %s
+
+$Python0001:
+  Unable to run raw checkers on built-in module %s
+
+$Python0010:
+  Unable to consider inline option %r
+
+$Python0011:
+  Locally disabling %s
+
+$Python0012:
+  Locally enabling %s
+
+$Python0013:
+  Ignoring entire file
+
+$Python0014:
+  Used deprecated directive ""pylint:disable-all"" or ""pylint:disable=all""
+
+$Python0020:
+  Suppressed %s (from line %d)
+
+$Python0021:
+  Useless suppression of %s
+
+$Python0022:
+  Deprecated pragma ""pylint:disable-msg"" or ""pylint:enable-msg""
+
+$Python0201:
+  Method could be a function
+
+$Python0401:
+  Cyclic import (%s)
+
+$Python0801:
+  Similar lines in %s files
+
+$Python0901:
+  Too many ancestors (%s/%s)
+
+$Python0902:
+  Too many instance attributes (%s/%s)
+
+$Python0903:
+  Too few public methods (%s/%s)
+
+$Python0904:
+  Too many public methods (%s/%s)
+
+$Python0911:
+  Too many return statements (%s/%s)
+
+$Python0912:
+  Too many branches (%s/%s)
+
+$Python0913:
+  Too many arguments (%s/%s)
+
+$Python0914:
+  Too many local variables (%s/%s)
+
+$Python0915:
+  Too many statements (%s/%s)
+
+$Python0921:
+  Abstract class not referenced
+
+$Python0922:
+  Abstract class is only referenced %s times
+
+$Python0923:
+  Interface not implemented
+
+$Python0101:
+  Unreachable code
+
+$Python0102:
+  Dangerous default value %s as argument
+
+$Python0104:
+  Statement seems to have no effect
+
+$Python0105:
+  String statement has no effect
+
+$Python0106:
+  Expression ""%s"" is assigned to nothing
+
+$Python0107:
+  Unnecessary pass statement
+
+$Python0108:
+  Lambda may not be necessary
+
+$Python0109:
+  Duplicate key %r in dictionary
+
+$Python0110:
+  map/filter on lambda could be replaced by comprehension
+
+$Python0120:
+  Else clause on loop without a break statement
+
+$Python0121:
+  Use raise ErrorClass(args) instead of raise ErrorClass, args.
+
+$Python0122:
+  Use of exec
+
+$Python0141:
+  Used builtin function %r
+
+$Python0142:
+  Used * or ** magic
+
+$Python0150:
+  %s statement in finally block may swallow exception
+
+$Python0199:
+  Assert called on a 2-uple. Did you mean \'assert x,y\'?
+
+$Python0201:
+  Attribute %r defined outside __init__
+
+$Python0211:
+  Static method with %r as first argument
+
+$Python0212:
+  Access to a protected member %s of a client class
+
+$Python0221:
+  Arguments number differs from %s method
+
+$Python0222:
+  Signature differs from %s method
+
+$Python0223:
+  Method %r is abstract in class %r but is not overridden
+
+$Python0231:
+  __init__ method from base class %r is not called
+
+$Python0232:
+  Class has no __init__ method
+
+$Python0233:
+  __init__ method from a non direct base class %r is called
+
+$Python0234:
+  iter returns non-iterator
+
+$Python0301:
+  Unnecessary semicolon
+
+$Python0311:
+  Bad indentation. Found %s %s, expected %s
+
+$Python0312:
+  Found indentation with %ss instead of %ss
+
+$Python0331:
+  Use of the <> operator
+
+$Python0332:
+  Use of ""l"" as long integer identifier
+
+$Python0333:
+  Use of the `` operator
+
+$Python0401:
+  Wildcard import %s
+
+$Python0402:
+  Uses of a deprecated module %r
+
+$Python0403:
+  Relative import %r, should be %r
+
+$Python0404:
+  Reimport %r (imported line %s)
+
+$Python0406:
+  Module import itself
+
+$Python0410:
+  __future__ import is not the first non docstring statement
+
+$Python0511:
+  (warning notes in code comments; message varies)
+
+$Python0512:
+  Cannot decode using encoding ""%s"", unexpected byte at position %d
+
+$Python0601:
+  Global variable %r undefined at the module level
+
+$Python0602:
+  Using global for %r but no assigment is done
+
+$Python0603:
+  Using the global statement
+
+$Python0604:
+  Using the global statement at the module level
+
+$Python0611:
+  Unused import %s
+
+$Python0612:
+  Unused variable %r
+
+$Python0613:
+  Unused argument %r
+
+$Python0614:
+  Unused import %s from wildcard import
+
+$Python0621:
+  Redefining name %r from outer scope (line %s)
+
+$Python0622:
+  Redefining built-in %r
+
+$Python0623:
+  Redefining name %r from %s in exception handler
+
+$Python0631:
+  Using possibly undefined loop variable %r
+
+$Python0632:
+  Possible unbalanced tuple unpacking with sequence%s: …
+
+$Python0633:
+  Attempting to unpack a non-sequence%s
+
+$Python0701:
+  Raising a string exception
+
+$Python0702:
+  No exception type(s) specified
+
+$Python0703:
+  Catching too general exception %s
+
+$Python0704:
+  Except doesn't do anything
+
+$Python0710:
+  Exception doesn't inherit from standard ""Exception"" class
+
+$Python0711:
+  Exception to catch is the result of a binary ""%s"" operation
+
+$Python0712:
+  Implicit unpacking of exceptions is not supported in Python 3
+
+$Python1001:
+  Use of ""property"" on an old style class
+
+$Python1111:
+  Assigning to function call which only returns None
+
+$Python1201:
+  Specify string format arguments as logging function parameters
+
+$Python1300:
+  Format string dictionary key should be a string, not %s
+
+$Python1301:
+  Unused key %r in format string dictionary
+
+$Python1401:
+  Anomalous backslash in string: \'%s\'. String constant might be missing an r prefix.
+
+$Python1402:
+  Anomalous Unicode escape in byte string: \'%s\'. String constant might be missing an r or u prefix.
+
+$Python1501:
+  ""%s"" is not a valid mode for open.
