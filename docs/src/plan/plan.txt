@@ -28,12 +28,16 @@ Modelisation
 
 Les paquetages ci-dessous sont liés à des outils :
 * [UMLModelio](#umlmodelio)
-* [UMLStarUML](#umlstaruml) 
+* [UMLStarUML](#umlstaruml)
 
 Implémentation
 --------------
 * [BaseDeDonnees](#basededonnees) 
 * [ProgrammationWeb](#programmationweb)
+
+Les paquetages ci-dessous sont liés à des outils :
+* [JavaCheckStyle](#javacheckstyle)
+* [PythonPyLint](#pythonpylint)
 
 Divers
 ======
