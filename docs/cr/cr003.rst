@@ -1,0 +1,30 @@
+CR003
+=====
+:Date: 2014-01-17-8h-8h30
+:Type: Interview
+:PartiesPrenantes: ABI, KWG, PPS
+:Organisateur: ABI
+:Rapporteur: KWG
+:Prrsents: ABI, PPS, KWG
+:Objectifs: Analyser le mode d’attribution des résultats
+
+#. ABI : *Quels sont les différents types de résultats qui sont fourni après les épreuves ?*
+#. PPS : La réponse à cette question n’est pas directe.
+#. PPS : D’un point de vue global, à chaque épreuve il y a 3 médailles.
+#. PPS : Il s’agit de la médaille d’or, la médaille d’argent et la médaille de bronze.
+#. PPS : Quel que soit le mode de calcul des résultats, le plus important est de publier les médailles.
+#. ABI : *L’une des priorités sera donc d’afficher pour une épreuve donnée les médailles?*
+#. PPS : Oui, c’est ce que demande le public en priorité.
+#. PPS ; S’il est possible d’afficher les différents résultats, ce serait évidemment un plus.
+#. PPS : Mais 80% des personnes sont intéressées par les médailles plutôt que les résultats détaillés.
+#. ABI : *Quelles sont les étapes qui mène à la publication des médailles ?*
+#. PPS : L’épreuve est tout d’abord planifiée.
+#. PPS : C’est le responsable du calendrier qui s’occupe de cela.
+#. PPS : Il indique les jours de passage des différentes équipes, des différentes compétions, etc.
+#. PPS : C'est à partir de ça que les gardiens contrôlent l'accès des zone sportives.
+#. PPS : Ensuite les épreuves se déroulent au fur et à mesure du calendrier.
+#. PPS : Au fur et à mesure les résultats sont collectés par les chefs d’épreuves.
+#. PPS : A la fin, c’est le responsable du jury qui rentre officiellement les médailles.
+#. PPS : C’est l’étape qui doit être la plus sécurisée.
+#. PPS : On voudrait utiliser un système d’empreinte digitale.
+#. PPS : Finalement, les médailles doivent être publiées.

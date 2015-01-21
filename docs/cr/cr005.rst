@@ -1,0 +1,34 @@
+CR005
+=====
+:Date: 2015-02-01-16h-17h
+:Type: Scénario
+:PartiesPrenantes: ABI, HSI, KWG, MPA, PSO
+:Organisateur: KWG
+:Presents: ABI, HSI, KWG, MPA
+:Objectifs: Etablir un scénario pré-compétition
+#. Marc est administrateur pour l’application CyberCompétition.
+#. Marc initialise l’application CyberCompétition en vue d'une compétition.
+#. Marc crée les épreuves disputées, en particulier, l'épreuve de danse en couple sur glace.
+#. Il crée ensuite l'épreuve de patinage libre individuel et l'épreuve de hockey.
+#. Estelle est secrétaire de compétition.
+#. Elle gère les inscriptions des participants à la compétition.
+#. La première étape est l'inscription des délégations.
+#. Estelle précise la nationalité de chaque délégation.
+#. Estelle saisi les caractéristiques de tous les compétiteurs qui la composent.
+#. Les délégations française et suisse ont respectivement 20 et 15 compétiteurs.
+#. Isabelle Delobel, née le 17 juin 1978 fait partie de la délégation française.
+#. Olivier Schoenfelder, né le 30 novembre 1977, également.
+#. La deuxième étape consiste à inscrire les compétiteurs aux épreuves sportives.
+#. Dans le cas d'une inscription par équipe, Estelle commence par sélectionner l'épreuve.
+#. Elle sélectionne ensuite les membres constituant l'équipe.
+#. Isabelle Delobel et Olivier Schoenfelder disputent une danse en couple sur glace.
+18. Dans le cas d'une inscription individuelle, Estelle sélectionne le sportif à inscrire.
+#. Il s’agit d’Isabelle Delobel.
+#. Estelle sélectionne ensuite les épreuves auxquelles elle souhaite participer.
+#. Isabelle Delobel veut s’inscrire en danse libre.
+#. Estelle regarde ensuite dans quelle chambre féminine estelle peut être logée.
+#. Estelle propose à isabelle d’être de partager la chambre avec maria, déjà inscrite.
+#. Il reste 3 places dans cette chambre Africa217.
+#. Isabelle accepte.
+#. Estelle attribue donc la chambre Africa217 à Isabelle.
+#. Estelle utilise donne le pass a estelle.

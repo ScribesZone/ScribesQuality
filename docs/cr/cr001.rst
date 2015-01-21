@@ -1,0 +1,44 @@
+CR001
+=====
+:Date: 2015-01-02-8h-10h
+:Type: réunion
+:PartiesPrenantes: ABI, JDR, KWG, MPA, PSO, TNA, ZSH 
+:Organisateur: ABI
+:Rapporteur: KWG
+:Presents: ABI, JDR, KWG, MPA, PSO, TNA, ZSH
+:Objectifs: faire connaissance, clarifier les grands objectifs du projet, fixer un premier agenda
+
+#. En ce début de projet, les parties prenantes sont les suivantes :
+#. _ Ahmed Blasi (ABI) – IMAG, Grenoble
+#. _ Jean-Claude Dufour (JDR) -- Competis, Grenoble
+#. _ Ken Wong (KWG) – IMAG, Grenoble
+#. _ Mireille Palma (MPA) – Competis, Lisbonne
+#. _ Paolo Santiago Sanchez (PSO) – Competis, Venezuela
+#. _ Hong Shi (HSI) – Competis, Zurich
+#. _ Tararya Naramananata (TNA) – Competis, Nantes
+#. _ Zork Swish (ZSH) – Competis, Autriche
+#. _
+#. Le présent projet a été baptisé CyberCompétition.
+#. La société Competis est spécialisée depuis 20 ans dans l’organisation de compétition.
+#. Competis est reconnue à l’international et a des antennes dans différents pays.
+#. Elle désire se doter d’un logiciel que l’on appelle CyberCompétition.
+#. Competis a déjà développé dans le passé des applications séparées.
+#. La plupart de ces applications deviennent obsolètes et doivent être remplacées.
+#. Par ailleurs la sécurité des personnes et des installations doit être largement renforcée.
+#. CyberCompétition doit rassembler de manière intégrée différentes fonctions.
+#. La réunion a montré que vu l’étendue du problème des priorités devraient être fixées.
+#. _
+#. On désire étudier les fonctionnalités correspondant à :
+#. l’enregistrement des épreuves,
+#. l’enregistrement des sportifs,
+#. la vente des billets,
+#. la sécurité des sites,
+#.  la publication des résultats.
+
+#. Les prochaines réunions sont planifiées pour les dates suivantes :
+#. _ Réunion, 2015-01-02-14h-15h, ABI, JDR, KWG, MPA, PSO, TNA 
+#. _ Interview, 2015-01-17-08h-08h30, ABI, KWG, PPS
+#. _ Interview, 2014-01-17-14h-15h, ABI, HIS, KWG, TNA
+#. _ Scénario, 2014-02-01-16h-17h, ABI, HIS, KWG, MPA, PSO
+#. _ Scénario, 2014-02-02-08h-08h30, ABI, KWG, PPS
+

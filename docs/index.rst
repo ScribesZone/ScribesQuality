@@ -108,6 +108,23 @@ vie et peuvent être utilisés tout au long du projet.
     packages/Livrable
 
 
+CR
+--
+
+
+.. toctree::
+    :maxdepth: 1
+
+    cr/cr001
+    cr/cr002
+    cr/cr003
+    cr/cr004
+    cr/cr005
+    cr/cr006
+    cr/cr007
+    cr/cr007
+
+
 References
 ----------
 

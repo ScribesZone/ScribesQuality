@@ -1,0 +1,33 @@
+CR002
+=====
+:Date: 2014-01-02-14h-15h
+:Type: réunion
+:PartiesPrenantes: ABI, JDR, KWG, MPA, PSO, TNA
+:Organisateur: ABI
+:Rapporteur: KWG
+:Presents: ABI, JDR, KWG, MPA, PSO, TNA
+:Objectifs: clarifier les notions d’équipes et de disciplines
+
+#. Une compétition rassemble des hommes et des femmes de divers pays.
+#. Ces sportifs se mesurent dans des épreuves de diverses disciplines.
+#. Le ski nordique ou les sports de glace sont des exemples de disciplines.
+#. Dans une discipline, il peut y avoir plusieurs épreuves.
+#. Par exemple, le ski alpin comporte les épreuves de descente, de slalom géant, etc.
+#. Une équipe comporte au moins deux sportifs, mais il peut y en avoir plus.
+#. Tous les sportifs d’une même équipe représentent le même pays.
+#. La plupart des épreuves par équipe sont associées à un nombre fixé de sportifs.
+#. Ce nombre est le même pour toutes les équipes.
+#. Le nombre de sportifs des équipes engagées est égal au nombre fixé.
+#. Certaines épreuves font exception à cette règle.
+#. Les épreuves masculines confrontent des hommes.
+#. Les épreuves féminines confrontent des femmes.
+#. Les petites compétitions mettent en jeu quelques dizaines de sportifs.
+#. Les compétitions plus importantes peuvent rassembler jusqu’à 1000 membres.
+#. Dans une épreuve masculine par équipe, tous les sportifs sont des hommes.
+#. Dans une épreuve féminine par équipe, tous les sportifs sont des femmes.
+#. Certaines épreuves sont mixtes.
+#. Par exemple la danse sur glace en couple est dans la discipline sports de glace.
+#. Une même équipe peut être engagée dans plusieurs épreuves de la même discipline.
+#. Un même sportif peut être engagé dans plusieurs épreuves de la même discipline.
+#. Un même sportif peut appartenir à plusieurs équipes.
+#. Il ou elle peut être engagé(e) aussi dans une ou plusieurs épreuves individuelles
