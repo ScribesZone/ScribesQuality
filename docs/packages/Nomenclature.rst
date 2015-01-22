@@ -87,7 +87,7 @@ Un trigramme est une séquence de trois lettres majsucules faisant référence d
 
   (2) la première lettre du premier nom de famille, et
 
-  (3) la dernière lettre du premier nom de famille. Les particules nobiliaires et aux prépositions nomminales (cf `wikipedia <http://en.wikipedia.org/wiki/Nobiliary_particle`__>) ne sont pas considérées dans cette règle (e.g. 'van der', 'von', 'de', 'dit', 'le', 'von', 'el', etc.)
+  (3) la dernière lettre du premier nom de famille. Les particules nobiliaires et aux prépositions nominales (cf `wikipedia <http://en.wikipedia.org/wiki/Nobiliary_particle>`__) ne sont pas considérées dans cette règle (e.g. selon les langues 'van der', 'von', 'de', 'dit', 'le', 'von', 'el', etc. )
 
 Si le trigramme formé avec les règles ci-dessus est déjà utilisé dans le contexte considéré, l'avant dernière lettre du nom est utilisée en place de la dernière et ainsi de suite.
 
@@ -121,6 +121,8 @@ Chaque partie prenante doit être identifiée visuellement pas un portrait uniqu
 
  pour décribiliser l'entreprise entière.
 
+:Commentaire:  La manière de mettre à jour son portrait dépend de chaque système utilisé Dans moodle cette information se trouve dans la section ``règlage de mon profil``.
+
 :paquetage: :ref:`package_Nomenclature`  
 
 .. _rule_NomPersonne:
@@ -128,7 +130,9 @@ Chaque partie prenante doit être identifiée visuellement pas un portrait uniqu
 NomPersonne
 --------------------------------------------------------------------------------
 
-Chaque personne est identifiée par son (ou ses) prénom(s) d'usage suivi et de son (ou ses) nom(s) d'usage orthographiés systématiquement de la même manière et séparés systématiquement par la même ponctuation. Pour distinguer le (ou les) nom(s) ceux-ci sont écrits en majuscules. Lorsque nécessaire, et si un champ n'est pas prévu spécifiquement à cet effet, m'utilisation de trigramme se fera après chaque partie prenante entre parenthèses.
+Chaque personne est identifiée par son (ou ses) prénom(s) d'usage suivi et de son (ou ses) nom(s) d'usage orthographiés systématiquement de la même manière et séparés systématiquement par la même ponctuation. Pour distinguer le (ou les) nom(s) ceux-ci sont écrits en majuscules.
+
+:Commentaire:  Lorsque nécessaire, et si un champ n'est pas prévu spécifiquement à cet effet, l'utilisation de trigramme se fera après chaque partie prenante entre parenthèses.
 
 :Exemple:  "Djiamila Maria WONG CONNOR (DWG)".
 
@@ -137,6 +141,8 @@ Chaque personne est identifiée par son (ou ses) prénom(s) d'usage suivi et de 
 :Exemple:  "Jean-Marie FAVRE DIT CROTIN" (JFE)".
 
 :Commentaire:  Si l'outil utilisé ne comporte pas de champs spécifique pour le trigramme celui-ci peut etre mis dans le champs nom entre parenthèse. Par exemple "Amelia Perdita"  sera dans le champ "prénom" (s'il existe) et "DA SILVA PEREZ (ASA)" dans le champ "nom".
+
+:Commentaire:  La manière de mettre à jour son identité dépend de chaque système utilisé Dans moodle cette information se trouve dans la section ``règlage de mon profil`` .
 
 :paquetage: :ref:`package_Nomenclature`  
 
