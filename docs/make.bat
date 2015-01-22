@@ -1,6 +1,8 @@
-C:\cygwin64\bin\bash bin\build-doc.sh
 
 @ECHO OFF
+echo 'This script should be executed with cygwin'
+C:\cygwin64\bin\bash bin\build-doc.sh
+
 
 REM Command file for Sphinx documentation
 
