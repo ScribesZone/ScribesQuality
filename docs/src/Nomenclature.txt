@@ -7,9 +7,6 @@ $OrthographeIdentificateur:
 $Identificateur: 
   Les identificateurs doivent être clairs, compréhensibles en dehors de leur contexte immédiat, doivent reflêter les objets auquels ils font références et ne pas constituer de paraphrases complexes de l'objet auquel ils font référence.
 
-$UtilisationTrigramme:
-
-  Un trigramme (cf $Trigramme) doit être utilisé pour reférencer une partie prenante.
 
 $FormeNominale:
   Une forme nominale doit être utilisée pour référencer l'objet considéré.
@@ -34,19 +31,43 @@ $HomogeneiteIdentificateurs:
 
 #=== Trigrammes ===
 $Trigramme:
-  Un trigramme est une séquence de trois lettres majsucules faisant référence de manière unique à une personne dans un contexte donné. La première règle appliquée est de concaténer (1) la première lettre du premier prénom, (2) la première lettre du premier nom de famille, et (3) la dernière lettre du premier nom de famille. Si le trigramme est déjà utilisé l'avant dernière lettre du nom est utilisée en place de la dernière et ainsi de suite.
+ Un trigramme est une séquence de trois lettres majsucules faisant référence de manière unique à une personne dans un *contexte* donné. La règle appliquée est de concaténer
+    (1) la première lettre du premier prénom,
+    (2) la première lettre du premier nom de famille, et
+    (3) la dernière lettre du premier nom de famille. Les particules nobiliaires et aux prépositions nomminales (cf `wikipedia <http://en.wikipedia.org/wiki/Nobiliary_particle`__>) ne sont pas considérées dans cette règle (e.g. 'van der', 'von', 'de', 'dit', 'le', 'von', 'el', etc.)
+  Si le trigramme formé avec les règles ci-dessus est déjà utilisé dans le contexte considéré, l'avant dernière lettre du nom est utilisée en place de la dernière et ainsi de suite.
+
   Observations: Dans les projets informatiques les parties prenantes (stakeholders en anglais) sont souvent identifiées de manière unique par un trigramme identifiant la personne de manière unique. Il existe plusieurs règles selon les enterprises, mais l'objectif est toujours de minimiser la probabilité d'avoir deux personnes ayant par défault le même trigramme (auquels cas une autre règle est appliquée pour la sectond personne). Les trigrammes sont utilisés de manière ubiquitaire dans les projets et autre autre dans les comptes rendus de réunions, les documents, les méls, le code source, les fichiers de suivis de temps, de gestion de projets, etc.
-  Exemple: le trigramme de Djiamila Maria WONG CONNOR est DWG
+  Exemple: Le trigramme de Djiamila Maria WONG CONNOR est DWG.
+           Le trigramme de Jean Baptiste VON DER WECK PILOW est JWK car *von der* est une particule nobiliaire en allemand.
+
+$UtilisationTrigramme:
+  Un trigramme (cf $Trigramme) doit être utilisé pour reférencer une partie prenante.
+
 
 #=== Portraits ===
 $Portrait:
   Chaque partie prenante doit être identifiée visuellement pas un portrait unique la représentant de face ou de profil mais permettant son identification sans ambiguité. Sont donc à proscrire tout icones, graphiques, ou représentation de personnages fictifs ne correspondant pas à la partie prenante.
-  Commentaire: Dans un monde professionnel, les entreprises maintiennent traditionnelement un "trombinoscope" plus ou moins formels selon son usage et l'entité qui le gère (équipe, niveau global de la corporation, direction des ressources humaines, etc). Dans le cadre d'organisations complexes, d'organisations virtuelles ou de projets globaux géographiquement répartis, pouvoir identifier les différentes parties prenantes et les différents interlocuteurs prenant part à des activités collaboratives est particulièrement important. De la même manière qu'aller travailler avec un masque de tortue ninja n'est pas considéré comme faisant partie des pratiques professionnelles, se cacher derrière un tel avatar ou la représentation d'un nounous ne répond ni besoin de communication de l'organisation, ni à une image de professionnelisme que devrait afficher toutes les parties prenantes.  
+
+  Commentaire: Dans un monde professionnel, les entreprises maintiennent traditionnelement un "trombinoscope" plus ou moins formels selon son usage et l'entité qui le gère (équipe, niveau global de la corporation, direction des ressources humaines, etc). Dans le cadre d'organisations complexes, d'organisations virtuelles ou de projets globaux géographiquement répartis, pouvoir identifier les différentes parties prenantes et les différents interlocuteurs prenant part à des activités collaboratives est particulièrement important. De la même manière qu'aller travailler avec un masque de tortue ninja n'est généralement pas considéré comme faisant partie des pratiques professionnelles, se cacher derrière un tel avatar ou la représentation d'un nounours ne répond ni besoin de communication de l'organisation, ni à une image de professionalisme que devrait afficher toutes les parties prenantes. Par ailleurs, cette image pourrait être réutilisée contre
+ la personne ayant déposé ce portrait dans le cadre d'une réunion importante, par exemple
+ pour décribiliser l'entreprise entière.
+
+  Commentaire: La manière de mettre à jour son portrait dépend de chaque système utilisé Dans moodle cette information se trouve dans la section ``règlage de mon profil``.
 
 #=== Prénoms & Noms ===
 $NomPersonne:
-  Chaque personne est identifiée par son (ou ses) prénom(s) d'usage suivi et de son (ou ses) nom(s) d'usage orthographiés systématiquement de la même manière et séparés systématiquement par la même ponctuation. Pour distinguer le (ou les) nom(s) ceux-ci sont écrits en majuscules. Lorsque nécessaire, et si un champ n'est pas prévu spécifiquement à cet effet, m'utilisation de trigramme se fera après chaque partie prenante entre parenthèses.
-  Exemple: "Djiamila Maria WONG CONNOR (DWG)"
+  Chaque personne est identifiée par son (ou ses) prénom(s) d'usage suivi et de son (ou ses) nom(s) d'usage orthographiés systématiquement de la même manière et séparés systématiquement par la même ponctuation. Pour distinguer le (ou les) nom(s) ceux-ci sont écrits en majuscules.
+
+  Commentaire: Lorsque nécessaire, et si un champ n'est pas prévu spécifiquement à cet effet, l'utilisation de trigramme se fera après chaque partie prenante entre parenthèses.
+
+  Exemple: "Djiamila Maria WONG CONNOR (DWG)".
+  Exemple: "Amelia Perdita DA SILVA PEREZ (ASA)".
+  Exemple: "Jean-Marie FAVRE DIT CROTIN" (JFE)".
+
+  Commentaire: Si l'outil utilisé ne comporte pas de champs spécifique pour le trigramme celui-ci peut etre mis dans le champs nom entre parenthèse. Par exemple "Amelia Perdita"  sera dans le champ "prénom" (s'il existe) et "DA SILVA PEREZ (ASA)" dans le champ "nom".
+
+  Commentaire: La manière de mettre à jour son identité dépend de chaque système utilisé Dans moodle cette information se trouve dans la section ``règlage de mon profil`` .
 
 #== Dates, Time & Periodes ==
 $FormatDate:
