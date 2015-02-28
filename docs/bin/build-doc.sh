@@ -57,12 +57,13 @@ gawk '
       #------ rule paragraph ----
       
       #--- deal with inner sections
-      gsub(/^  [Tt]ype:/,"* **Type:** ") ;
-      gsub(/^  Commentaires?:/,"* **Commentaire:** ") ;
-      gsub(/^  Exemples?:/,"* **Exemple:** ") ;
-      gsub(/^  Remarques?:/,"* **Remarque:** ") ;
-      gsub(/^  Observations?:/,"* **Observation:** ") ;
-      gsub(/^  [Mm]eta:/,"* **Meta:** ") ;
+      gsub(/^  [Tt]ype:/,"* **type:** ") ;
+      gsub(/^  Commentaires?:/,"* **commentaire:** ") ;
+      gsub(/^  Exemples?:/,"* **exemple:** ") ;
+      gsub(/^  Remarques?:/,"* **remarque:** ") ;
+      gsub(/^  Observations?:/,"* **observation:** ") ;
+      gsub(/^  [Mm]eta:/,"* **meta:** ") ;
+      gsub(/^  [Ss]tyles?:/,"* **style:** ");
       gsub(/^  /,"") ;
 
       
