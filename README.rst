@@ -13,3 +13,4 @@ This documentation is best at http://scribequality.readthedocs.org
 .. image:: https://readthedocs.org/projects/scribequality/badge/?version=latest
    :target: https://readthedocs.org/projects/scribequality/?badge=latest
    :alt: Documentation Status
+
