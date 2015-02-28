@@ -12,7 +12,7 @@ NomSysteme
 
 Les noms des systèmes et des sous-systèmes doivent clairement reflêter leur rôle et/ou la décomposition réalisée, ne doivent pas être générique, et doivent montrer leur status de systèmes.
 
-:Exemple:  "Systeme" est à éviter car ce nom est trop générique. "Batiment" n'est pas adapté comme nom de sous-système car ce terme fait référence à un système physique. "GestionDesBatiments" ou "SystemeDeGestionDesBatiments" sont mieux adaptés.
+:exemple:  "Systeme" est à éviter car ce nom est trop générique. "Batiment" n'est pas adapté comme nom de sous-système car ce terme fait référence à un système physique. "GestionDesBatiments" ou "SystemeDeGestionDesBatiments" sont mieux adaptés.
 
 :paquetage: :ref:`package_Systeme`  
 
@@ -23,7 +23,7 @@ NomenclatureSysteme
 
 Les noms de système et sous-systèmes doivent être en style MajMin (voir :ref:`rule_MajMin`).
 
-:Exemple:  "GestionDesIncidents"
+:exemple:  "GestionDesIncidents"
 
 :paquetage: :ref:`package_Systeme`  
 

@@ -12,7 +12,7 @@ OrthographeIdentificateur
 
 Une ou plusieurs fautes d'orthographes sont présents dans un ou plusieurs identificateurs.
 
-:Commentaire:  La présence de fautes d'orthographes dans les identificateurs sont beaucoup plus importants que dans du texte. Dans du texte, seul la lecture est génée et l'auteur potentiellement décribilisé dans ca capacité de relire ou faire relire le texte qu'il a produit (et donc dans sa capacité à livrer des artefacts de qualité). La situation dans un identificateur est de toute autre nature, et le problème de plusieurs ordre de magnitude plus important. En effet les identificateurs sont fait pour être référencés, recherchés, dérivés, etc. et toute erreur qui s'introduit dans un identificateur risque d'avoir des impacts très lourds en l'absence par exemple de technique de "renommage" car toutes les occurrences de l'identificateur erronées devront être renommées avec tous les risques que cela présente. Il est possible que l'erreur ne soit pas corrigée lorsqu'elle est découverte pour éviter d'éventuels impacts. Rechercher et référencer des identificateurs avec des erreurs d'orthographes risquent de générer des erreurs en cascades, des problèmes de gestion des impacts, etc. La liaison entre les différents artefacts comme le code et le glossaire du domaine risque de ne pas pouvoir non plus être fait.
+:commentaire:  La présence de fautes d'orthographes dans les identificateurs sont beaucoup plus importants que dans du texte. Dans du texte, seul la lecture est génée et l'auteur potentiellement décribilisé dans ca capacité de relire ou faire relire le texte qu'il a produit (et donc dans sa capacité à livrer des artefacts de qualité). La situation dans un identificateur est de toute autre nature, et le problème de plusieurs ordre de magnitude plus important. En effet les identificateurs sont fait pour être référencés, recherchés, dérivés, etc. et toute erreur qui s'introduit dans un identificateur risque d'avoir des impacts très lourds en l'absence par exemple de technique de "renommage" car toutes les occurrences de l'identificateur erronées devront être renommées avec tous les risques que cela présente. Il est possible que l'erreur ne soit pas corrigée lorsqu'elle est découverte pour éviter d'éventuels impacts. Rechercher et référencer des identificateurs avec des erreurs d'orthographes risquent de générer des erreurs en cascades, des problèmes de gestion des impacts, etc. La liaison entre les différents artefacts comme le code et le glossaire du domaine risque de ne pas pouvoir non plus être fait.
 
 :paquetage: :ref:`package_Nomenclature`  
 
@@ -59,7 +59,7 @@ Connecteur
 
 Les connecteurs tel que "et", "ou", "/", "+", signes de ponctuations ou d'imbrications ne devraient pas être utilisés dans un identificateur dans la mesure ou l'objet identifié n'est pas clairement conceptualisé ou nommé.
 
-:Commentaire:  un identificateur correspond normallement à un concept ou à une entitée particulière définie et il existe généralement un terme décrivant ce concept, en tout cas dans un vocabulaire métier ou dans un jargon particulier. Si ce n'est pas le cas on peut se poser la question de la réalité ou de l'utilité ou de la réalité de ce concept. Si le concept est effectivement utile, dans ce cas il est généralement préférable de l'associer à un mot existant ou à l'une de ses dérivations (et à ajouter ces termes dans le glossaire), plutot que d'introduire des connecteurs. Très souvent l'utilisation de connecteurs correspond à une justaposition non réflechie d'éléments. Un identificateur composé par des connecteurs peut correspondre également à des pratiques de programmation ou de modélisation problématiques qu'il s'agira soit d'éliminer, soit de documenter avec soin.
+:commentaire:  un identificateur correspond normallement à un concept ou à une entitée particulière définie et il existe généralement un terme décrivant ce concept, en tout cas dans un vocabulaire métier ou dans un jargon particulier. Si ce n'est pas le cas on peut se poser la question de la réalité ou de l'utilité ou de la réalité de ce concept. Si le concept est effectivement utile, dans ce cas il est généralement préférable de l'associer à un mot existant ou à l'une de ses dérivations (et à ajouter ces termes dans le glossaire), plutot que d'introduire des connecteurs. Très souvent l'utilisation de connecteurs correspond à une justaposition non réflechie d'éléments. Un identificateur composé par des connecteurs peut correspondre également à des pratiques de programmation ou de modélisation problématiques qu'il s'agira soit d'éliminer, soit de documenter avec soin.
 
 :paquetage: :ref:`package_Nomenclature`  
 
@@ -70,9 +70,9 @@ HomogeneiteIdentificateurs
 
 Les identificateurs utilisés ne sont globalement pas homogènes et soit il existe une absence totale de style, soit trop de styles sont utilisés sans que cela soit justifié.
 
-:Commentaire:  Tous les identificateurs d'un même genre (e.g. identificateurs de classes, de scénarios, de cas d'utilisation) devraient être homogènes et respecter des règles de nomenclature portant à la fois sur le plan de la typographie (utilisation de minuscules, majuscules, soulignés ou tirets, etc.), de l'ensemble des caractères utilisés (il est généralement recommandé de ne pas utilisés d'accents ou d'autres caractères diacritiques), des formes grammaticales utilisées (par exemple des formes verbales au passif et au participe présent ne sont pas homogénes), des connecteurs (e.g. des articles) et abbréviations utilisés ou non. Le manque d'homogénéité peut avoir des impacts néfastes sur la lecture, la possibilité de référencer de manière systèmatique des éléménts, la possibilité de faire des recherches textuelles d'identificateurs. Elle met également en péril toute possibilité d'automatisation, d'extraction d'information, de référencement, etc.
+:commentaire:  Tous les identificateurs d'un même genre (e.g. identificateurs de classes, de scénarios, de cas d'utilisation) devraient être homogènes et respecter des règles de nomenclature portant à la fois sur le plan de la typographie (utilisation de minuscules, majuscules, soulignés ou tirets, etc.), de l'ensemble des caractères utilisés (il est généralement recommandé de ne pas utilisés d'accents ou d'autres caractères diacritiques), des formes grammaticales utilisées (par exemple des formes verbales au passif et au participe présent ne sont pas homogénes), des connecteurs (e.g. des articles) et abbréviations utilisés ou non. Le manque d'homogénéité peut avoir des impacts néfastes sur la lecture, la possibilité de référencer de manière systèmatique des éléménts, la possibilité de faire des recherches textuelles d'identificateurs. Elle met également en péril toute possibilité d'automatisation, d'extraction d'information, de référencement, etc.
 
-:Exemple:  "supprimer employé" et "CreationDUnePers" ne sont pas homogènes car ils diffèrent par raport à (1) la casse, (2) l'ensemble des caractères utilisés, (3) le fait d'utiliser des articles ou non, (4) la forme grammaticale mise en oeuvre (infinitif vs. nom), (5) l'utilisation ou la suppression des articles, (6) l'utilisation d'abbréviation.  
+:exemple:  "supprimer employé" et "CreationDUnePers" ne sont pas homogènes car ils diffèrent par raport à (1) la casse, (2) l'ensemble des caractères utilisés, (3) le fait d'utiliser des articles ou non, (4) la forme grammaticale mise en oeuvre (infinitif vs. nom), (5) l'utilisation ou la suppression des articles, (6) l'utilisation d'abbréviation.  
 
 :paquetage: :ref:`package_Nomenclature`  
 
@@ -91,9 +91,9 @@ Un trigramme est une séquence de trois lettres majsucules faisant référence d
 
 Si le trigramme formé avec les règles ci-dessus est déjà utilisé dans le contexte considéré, l'avant dernière lettre du nom est utilisée en place de la dernière et ainsi de suite.
 
-:Observation:  Dans les projets informatiques les parties prenantes (stakeholders en anglais) sont souvent identifiées de manière unique par un trigramme identifiant la personne de manière unique. Il existe plusieurs règles selon les enterprises, mais l'objectif est toujours de minimiser la probabilité d'avoir deux personnes ayant par défault le même trigramme (auquels cas une autre règle est appliquée pour la sectond personne). Les trigrammes sont utilisés de manière ubiquitaire dans les projets et autre autre dans les comptes rendus de réunions, les documents, les méls, le code source, les fichiers de suivis de temps, de gestion de projets, etc.
+:observation:  Dans les projets informatiques les parties prenantes (stakeholders en anglais) sont souvent identifiées de manière unique par un trigramme identifiant la personne de manière unique. Il existe plusieurs règles selon les enterprises, mais l'objectif est toujours de minimiser la probabilité d'avoir deux personnes ayant par défault le même trigramme (auquels cas une autre règle est appliquée pour la sectond personne). Les trigrammes sont utilisés de manière ubiquitaire dans les projets et autre autre dans les comptes rendus de réunions, les documents, les méls, le code source, les fichiers de suivis de temps, de gestion de projets, etc.
 
-:Exemple:  Le trigramme de Djiamila Maria WONG CONNOR est DWG.
+:exemple:  Le trigramme de Djiamila Maria WONG CONNOR est DWG.
 
          Le trigramme de Jean Baptiste VON DER WECK PILOW est JWK car *von der* est une particule nobiliaire en allemand.
 
@@ -115,13 +115,13 @@ Portrait
 
 Chaque partie prenante doit être identifiée visuellement pas un portrait unique la représentant de face ou de profil mais permettant son identification sans ambiguité. Sont donc à proscrire tout icones, graphiques, ou représentation de personnages fictifs ne correspondant pas à la partie prenante.
 
-:Commentaire:  Dans un monde professionnel, les entreprises maintiennent traditionnelement un "trombinoscope" plus ou moins formels selon son usage et l'entité qui le gère (équipe, niveau global de la corporation, direction des ressources humaines, etc). Dans le cadre d'organisations complexes, d'organisations virtuelles ou de projets globaux géographiquement répartis, pouvoir identifier les différentes parties prenantes et les différents interlocuteurs prenant part à des activités collaboratives est particulièrement important. De la même manière qu'aller travailler avec un masque de tortue ninja n'est généralement pas considéré comme faisant partie des pratiques professionnelles, se cacher derrière un tel avatar ou la représentation d'un nounours ne répond ni besoin de communication de l'organisation, ni à une image de professionalisme que devrait afficher toutes les parties prenantes. Par ailleurs, cette image pourrait être réutilisée contre
+:commentaire:  Dans un monde professionnel, les entreprises maintiennent traditionnelement un "trombinoscope" plus ou moins formels selon son usage et l'entité qui le gère (équipe, niveau global de la corporation, direction des ressources humaines, etc). Dans le cadre d'organisations complexes, d'organisations virtuelles ou de projets globaux géographiquement répartis, pouvoir identifier les différentes parties prenantes et les différents interlocuteurs prenant part à des activités collaboratives est particulièrement important. De la même manière qu'aller travailler avec un masque de tortue ninja n'est généralement pas considéré comme faisant partie des pratiques professionnelles, se cacher derrière un tel avatar ou la représentation d'un nounours ne répond ni besoin de communication de l'organisation, ni à une image de professionalisme que devrait afficher toutes les parties prenantes. Par ailleurs, cette image pourrait être réutilisée contre
 
  la personne ayant déposé ce portrait dans le cadre d'une réunion importante, par exemple
 
  pour décribiliser l'entreprise entière.
 
-:Commentaire:  La manière de mettre à jour son portrait dépend de chaque système utilisé Dans moodle cette information se trouve dans la section ``règlage de mon profil``.
+:commentaire:  La manière de mettre à jour son portrait dépend de chaque système utilisé Dans moodle cette information se trouve dans la section ``règlage de mon profil``.
 
 :paquetage: :ref:`package_Nomenclature`  
 
@@ -132,17 +132,17 @@ NomPersonne
 
 Chaque personne est identifiée par son (ou ses) prénom(s) d'usage suivi et de son (ou ses) nom(s) d'usage orthographiés systématiquement de la même manière et séparés systématiquement par la même ponctuation. Pour distinguer le (ou les) nom(s) ceux-ci sont écrits en majuscules.
 
-:Commentaire:  Lorsque nécessaire, et si un champ n'est pas prévu spécifiquement à cet effet, l'utilisation de trigramme se fera après chaque partie prenante entre parenthèses.
+:commentaire:  Lorsque nécessaire, et si un champ n'est pas prévu spécifiquement à cet effet, l'utilisation de trigramme se fera après chaque partie prenante entre parenthèses.
 
-:Exemple:  "Djiamila Maria WONG CONNOR (DWG)".
+:exemple:  "Djiamila Maria WONG CONNOR (DWG)".
 
-:Exemple:  "Amelia Perdita DA SILVA PEREZ (ASA)".
+:exemple:  "Amelia Perdita DA SILVA PEREZ (ASA)".
 
-:Exemple:  "Jean-Marie FAVRE DIT CROTIN" (JFE)".
+:exemple:  "Jean-Marie FAVRE DIT CROTIN" (JFE)".
 
-:Commentaire:  Si l'outil utilisé ne comporte pas de champs spécifique pour le trigramme celui-ci peut etre mis dans le champs nom entre parenthèse. Par exemple "Amelia Perdita"  sera dans le champ "prénom" (s'il existe) et "DA SILVA PEREZ (ASA)" dans le champ "nom".
+:commentaire:  Si l'outil utilisé ne comporte pas de champs spécifique pour le trigramme celui-ci peut etre mis dans le champs nom entre parenthèse. Par exemple "Amelia Perdita"  sera dans le champ "prénom" (s'il existe) et "DA SILVA PEREZ (ASA)" dans le champ "nom".
 
-:Commentaire:  La manière de mettre à jour son identité dépend de chaque système utilisé Dans moodle cette information se trouve dans la section ``règlage de mon profil`` .
+:commentaire:  La manière de mettre à jour son identité dépend de chaque système utilisé Dans moodle cette information se trouve dans la section ``règlage de mon profil`` .
 
 :paquetage: :ref:`package_Nomenclature`  
 
@@ -162,9 +162,9 @@ MajMin
 
 L'identificateur doit correspondre à une suite de majuscules, minuscules ou chiffres, débutant par une majuscule.
 
-:Commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
+:commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
 
-:Exemple:  "ConnecteurDInterface2", "SMSRenvoye"
+:exemple:  "ConnecteurDInterface2", "SMSRenvoye"
 
 :paquetage: :ref:`package_Nomenclature`  
 
@@ -175,9 +175,9 @@ MinMaj
 
 L'identificateur doit correspondre à une suite de majuscules, minuscules ou chiffres, débutant par une minuscule. 
 
-:Commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
+:commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
 
-:Exemple:  "lesConnecteurs", "smsRenvoye2", "les4SMSRecus"
+:exemple:  "lesConnecteurs", "smsRenvoye2", "les4SMSRecus"
 
 :paquetage: :ref:`package_Nomenclature`  
 
@@ -188,9 +188,9 @@ MinMajSouligne
 
 L'identificateur doit correspondre à une suite de majuscules, minuscules, chiffres ou souligné ("_"), débutant par une minuscule. 
 
-:Commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs autre que le souligné "_".
+:commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs autre que le souligné "_".
 
-:Exemple:  "acheterUnTicket_normal"
+:exemple:  "acheterUnTicket_normal"
 
 :paquetage: :ref:`package_Nomenclature`  
 
@@ -201,9 +201,9 @@ MAJSouligneMAJ
 
 L'identificateur doit correspondre à une suite séquences de majuscules, chiffres et soulignés ("_").
 
-:Commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs autre que le souligné "_".
+:commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs autre que le souligné "_".
 
-:Exemple:  "CONST_WINDOW_CLOSED"
+:exemple:  "CONST_WINDOW_CLOSED"
 
 :paquetage: :ref:`package_Nomenclature`  
 
@@ -232,6 +232,6 @@ InteractionProscrite
 
 Une ou des interactions entre couches ne sont pas conformes aux règles établies par le patron.
 
-:Commentaire:  Dans certaines versions du patron MVC les controleurs jouent les intermediaires entre les modeles et les vues et les interactions directes entre ces couches sont interdites. Les modèles doivent être complétement indépendants des autres couches et donc ne connaître ni les controleurs, ni les vues mais peuvent intégagir entre eux. Les vues ou interfaces, qu'elles correspondent à des dispositifs d'entrée, de sorties, à des actuateurs ou à des capteurs, peuvent intéragir entre elles ou avec des controleurs. Les controleurs peuvent intéragir avec les controleurs, les vues et les modèles et jouent donc un rôle central. 
+:commentaire:  Dans certaines versions du patron MVC les controleurs jouent les intermediaires entre les modeles et les vues et les interactions directes entre ces couches sont interdites. Les modèles doivent être complétement indépendants des autres couches et donc ne connaître ni les controleurs, ni les vues mais peuvent intégagir entre eux. Les vues ou interfaces, qu'elles correspondent à des dispositifs d'entrée, de sorties, à des actuateurs ou à des capteurs, peuvent intéragir entre elles ou avec des controleurs. Les controleurs peuvent intéragir avec les controleurs, les vues et les modèles et jouent donc un rôle central. 
 
 :paquetage: :ref:`package_Nomenclature`  

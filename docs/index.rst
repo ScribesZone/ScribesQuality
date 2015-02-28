@@ -15,12 +15,6 @@ Ce site définit différentes règles de qualité pouvant être utilisées tout 
 
  * :ref:`package_BaseDeDonnees` (10 rules)
  * :ref:`package_CasDUtilisation` (17 rules)
- * :ref:`package_CasDUtilisation_ModeleDetaille` (2 rules)
- * :ref:`package_CasDUtilisation_ModelePreliminaire` (1 rules)
- * :ref:`package_CasDUtilisation_StyleDecore` (1 rules)
- * :ref:`package_CasDUtilisation_StyleEssentiel` (1 rules)
- * :ref:`package_CasDUtilisation_StyleGaucheDroite` (1 rules)
- * :ref:`package_CasDUtilisation_StylePrimaire` (1 rules)
  * :ref:`package_Classe` (24 rules)
  * :ref:`package_Deploiement` (1 rules)
  * :ref:`package_Diagramme` (10 rules)
@@ -58,12 +52,6 @@ Modelisation
     packages/Exigence
     packages/Systeme
     packages/CasDUtilisation
-    packages/CasDUtilisation_ModelePreliminaire
-    packages/CasDUtilisation_ModeleDetaille
-    packages/CasDUtilisation_StyleDecore
-    packages/CasDUtilisation_StyleEssentiel
-    packages/CasDUtilisation_StyleGaucheDroite
-    packages/CasDUtilisation_StylePrimaire
     packages/Scenario
     packages/Sequence
     packages/Valeur
@@ -107,11 +95,6 @@ vie et peuvent être utilisés tout au long du projet.
     packages/Document
     packages/Livrable
 
-
-References
-----------
-
-* :ref:`tableDesMatieres`
 
 .. ............................................................................
 

@@ -12,7 +12,7 @@ Langage
 
 Le texte comporte un ou plusieurs éléments de langages incorrects et/ou peu appropriés au contexte du document.
 
-:Commentaire:  Le niveau d'exigence en terme de qualité des textes dépend des artéfacts et de leur status. Les textes figurant dans des livrables sont des éléments dépassant le contexte de la sphére proche de l'auteur et une attention plus importante doit être apportées aux différents éléments de langages. 
+:commentaire:  Le niveau d'exigence en terme de qualité des textes dépend des artéfacts et de leur status. Les textes figurant dans des livrables sont des éléments dépassant le contexte de la sphére proche de l'auteur et une attention plus importante doit être apportées aux différents éléments de langages. 
 
 :paquetage: :ref:`package_TexteTechnique`  
 
@@ -32,7 +32,7 @@ Orthographe
 
 Le texte comporte une ou plusieurs fautes d'orthographe. 
 
-:Commentaire:  (voir :ref:`rule_Langage`).
+:commentaire:  (voir :ref:`rule_Langage`).
 
 :paquetage: :ref:`package_TexteTechnique`  
 
@@ -43,7 +43,7 @@ Ponctuation
 
 Les règles de ponctuation associées au langage utilisé ne sont pas respectées. 
 
-:Commentaire:  Pour la langue française voir par exemple l'url suivante http://www.la-ponctuation.com/
+:commentaire:  Pour la langue française voir par exemple l'url suivante http://www.la-ponctuation.com/
 
 :paquetage: :ref:`package_TexteTechnique`  
 
@@ -63,7 +63,7 @@ Style
 
 Le style du texte est inappoprié. 
 
-:Exemple:  Par exemple le style peut être trop "télégraphique", trop verbeux, trop technique, etc. 
+:exemple:  Par exemple le style peut être trop "télégraphique", trop verbeux, trop technique, etc. 
 
 :paquetage: :ref:`package_TexteTechnique`  
 
@@ -83,7 +83,7 @@ Abbreviation
 
 Le texte ou les identificateurs comportent une ou plusieurs abbréviations et/ou acronymes n'étant pas définis/nécessaires/compréhensibles et/ou indispensables.
 
-:Commentaire:  La plus grosse difficulté consiste non pas à "taper" des textes ou des identificateurs dans des artefacts logiciels, mais plutot à comprendre ces artefacts et ces textes. Alors qu'une la "frappe" des caractères se fait une fois et ne pose aucun problème notament avec les environements modernes d'édition fournissant des mécanisms de "complétion", la lecture des textes ou identificateurs par de multiples parties prenantes est toujours associés à des problèmes de compréhension bien supérieur, sauf si les la liste exacte des abbréviations se trouvent dans le glossaire. En fait le seul cas où les abbrévations sont utiles est lorsque les noms deviennent beaucoup trop longs pour être identifiés visuellement ou apparaissent par exemple dans des formules donc de manière locale, contrainte et répétée. Dans tous les cas de figure, sauf cas trivial, les abbréviations doivent être définies dans le glossaire. 
+:commentaire:  La plus grosse difficulté consiste non pas à "taper" des textes ou des identificateurs dans des artefacts logiciels, mais plutot à comprendre ces artefacts et ces textes. Alors qu'une la "frappe" des caractères se fait une fois et ne pose aucun problème notament avec les environements modernes d'édition fournissant des mécanisms de "complétion", la lecture des textes ou identificateurs par de multiples parties prenantes est toujours associés à des problèmes de compréhension bien supérieur, sauf si les la liste exacte des abbréviations se trouvent dans le glossaire. En fait le seul cas où les abbrévations sont utiles est lorsque les noms deviennent beaucoup trop longs pour être identifiés visuellement ou apparaissent par exemple dans des formules donc de manière locale, contrainte et répétée. Dans tous les cas de figure, sauf cas trivial, les abbréviations doivent être définies dans le glossaire. 
 
 :paquetage: :ref:`package_TexteTechnique`  
 

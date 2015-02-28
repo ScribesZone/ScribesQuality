@@ -12,9 +12,9 @@ FormatReferenceLignes
 
 La référence à une ligne <L> d'une ressource <R> se fait de la manière suivante :  [<R>#<L>]. Plusieurs lignes d'une même ressources peuvent être séparées par des virgules, et un interval de lignes peut être constitué en utilisant un '-'. Plusieurs ressources différentes peuvent être séparées par un point virgule. 
 
-:Commentaire:  Les espaces ne sont pas autorisés.
+:commentaire:  Les espaces ne sont pas autorisés.
 
-:Exemple:  [CR001#2,4-5;CR002#34] est équivalent à [CR001#2][CR001#4][CR001#5][CB002#34]
+:exemple:  [CR001#2,4-5;CR002#34] est équivalent à [CR001#2][CR001#4][CR001#5][CB002#34]
 
 :paquetage: :ref:`package_Tracabilite`  
 

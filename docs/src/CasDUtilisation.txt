@@ -109,3 +109,73 @@ $ActeuronHumain:
   
   
 
+
+
+
+
+
+#== CasDUtilisation_ModelePreliminaire
+# Alternative: CasDUtilisation_ModeleDetaille
+
+$PasDeRelationEntreCU:
+  L'utilisation de relations entre cas d'utilisation n'est recommandée.
+
+
+
+
+
+
+
+#== CasDUtilisation_ModeleDetaille
+# Alternative: CasDUtilisation_ModelePreliminaire
+
+$RelationsCUIncoherentes:
+  Les relations de dépendences <<includes>> et <<extends>> existant entre cas d'utilisations ne sont pas cohérentes avec les descriptions détaillées de ceux-ci
+
+$IncludeMultiple:
+  Un cas d'utilisation inclu via une relation dépendence <<includes>> doit l'être dans au moins deux cas d'utilisation.
+
+
+
+
+#== CasDUtilisation_StyleDecore
+
+$CUAuxiliaireDecore:
+  Dans le cadre du **StyleCUDecore**, le stéréotype <<auxiliary>> doit être associé aux acteurs auxillaires.
+  Style: StyleCUDecore
+
+
+
+
+#== CasDUtilisation_StyleEssentiel
+$StyleEssentiel:
+  Dans le cadre du **StyleCUEssentiel** la description du scenario ne doit pas faire de références inutiles à la manière dont les acteurs et le système intéragissent dans le détail, sachant que l'objectif d'un *cas d'utilisation essentiel* n'est pas de décrire des exigences sur une ou des interfaces personnes systèmes.
+  Style: StyleCUEssentiel
+
+
+
+#== CasDUtilisation_StyleGaucheDroite
+
+$CUPrimaireAGauche:
+  Dans le cadre du **StyleCUGaucheDroite** les acteurs primaires doivent être représentés à gauche du système, les acteurs secondaires à droite.
+  Style: StyleCUGaucheDroite
+
+
+#== CasDUtilisation_StylePrimaire
+$CUSeulementPrimaire:
+  Dans le cadre du **StyleCUGaucheDroite** seuls les acteurs primaires doivent être representés dans les diagrammes de cas d'utilisation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

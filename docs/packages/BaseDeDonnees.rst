@@ -12,11 +12,11 @@ NomRelation
 
 Le nom d'une relation doit correspondre à une forme nominale plurielle. Par ailleurs les termes utilisés dans le nom doivent généralement être définis dans le glossaire. Si une abbréviation est utilisée celle-ci devra être impérativement définie dans le glossaire.
 
-:Exemple:  "LesPersonnes" ou "TheLoanedBooks"
+:exemple:  "LesPersonnes" ou "TheLoanedBooks"
 
-:Commentaire:  Contrairement au nom d'une classe (voir :ref:`rule_NomClasse`) qui est une forme nominale au singuler, les relations correspondent à un ensemble d'entités.
+:commentaire:  Contrairement au nom d'une classe (voir :ref:`rule_NomClasse`) qui est une forme nominale au singuler, les relations correspondent à un ensemble d'entités.
 
-:Exemple:  Les objets de classe "Personne" seront donc naturellement stockées dans la relation "LesPersonnes".
+:exemple:  Les objets de classe "Personne" seront donc naturellement stockées dans la relation "LesPersonnes".
 
 :paquetage: :ref:`package_BaseDeDonnees`  
 
@@ -45,7 +45,7 @@ NomColonne
 
 Dans une relation, le nom de chaque colonne doit correspondre à une forme nominale correspondant à l'attribut ou au concept représenté, sauf eventuellement pour les colonnes représentant une valeur booléenne auxquel cas une forme verbale peut être acceptable. Par ailleurs les termes utilisés dans le nom doivent être définis dans le glossaire. Si une abbréviation est utilisée celle-ci devra être impérativement définie dans le glossaire.
 
-:Exemple:  "adresse", "estArrive"
+:exemple:  "adresse", "estArrive"
 
 :paquetage: :ref:`package_BaseDeDonnees`  
 
