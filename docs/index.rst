@@ -84,7 +84,7 @@ vie et peuvent être utilisés tout au long du projet.
     packages/Diagramme
     packages/Tracabilite
     packages/Document
-
+    packages/Presentation
 
 -------------------------------------------------------------------------------
 
