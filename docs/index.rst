@@ -9,38 +9,21 @@ Ce site définit différentes règles de qualité pouvant être utilisées tout 
     Utiliser la fonction "Search" pour utiliser ce site.
 
 
-778 REGLES DANS 29 PAQUETAGES
-=============================
-29 paquetages triés par ordre alphabétique.
-
- * :ref:`package_BaseDeDonnees` (10 rules)
- * :ref:`package_CasDUtilisation` (17 rules)
- * :ref:`package_Classe` (24 rules)
- * :ref:`package_Deploiement` (1 rules)
- * :ref:`package_Diagramme` (10 rules)
- * :ref:`package_Document` (21 rules)
- * :ref:`package_Etat` (21 rules)
- * :ref:`package_Exigence` (13 rules)
- * :ref:`package_Glossaire` (18 rules)
- * :ref:`package_JavaCheckStyle` (147 rules)
- * :ref:`package_Livrable` (17 rules)
- * :ref:`package_Nomenclature` (19 rules)
- * :ref:`package_ProgrammationWeb` (2 rules)
- * :ref:`package_PythonPyLint` (179 rules)
- * :ref:`package_Scenario` (23 rules)
- * :ref:`package_Sequence` (1 rules)
- * :ref:`package_Systeme` (5 rules)
- * :ref:`package_Tache` (5 rules)
- * :ref:`package_TexteTechnique` (35 rules)
- * :ref:`package_Tracabilite` (3 rules)
- * :ref:`package_UMLModelio` (187 rules)
- * :ref:`package_UMLStarUML` (38 rules)
- * :ref:`package_Valeur` (17 rules)
-
+-------------------------------------------------------------------------------
 
 Cycle de vie
 ------------
 Les paquetages de règles ci-dessous correspondent à différentes étapes dans le cycle de vie du logiciel.
+
+Collecte des besoins
+^^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+    :maxdepth: 1
+
+    packages/Glossaire
+    packages/Exigence
+
 
 Modelisation
 ^^^^^^^^^^^^
@@ -48,8 +31,6 @@ Modelisation
 .. toctree::
     :maxdepth: 1
 
-    packages/Glossaire
-    packages/Exigence
     packages/Systeme
     packages/CasDUtilisation
     packages/Scenario
@@ -79,6 +60,16 @@ Implementation
     packages/JavaCheckStyle
     packages/PythonPyLint
 
+Livraisons
+^^^^^^^^^^
+
+.. toctree::
+    :maxdepth: 1
+
+    packages/Livrable
+
+-------------------------------------------------------------------------------
+
 
 Divers
 ------
@@ -93,8 +84,44 @@ vie et peuvent être utilisés tout au long du projet.
     packages/Diagramme
     packages/Tracabilite
     packages/Document
-    packages/Livrable
 
+
+-------------------------------------------------------------------------------
+
+
+
+778 REGLES DANS 29 PAQUETAGES
+-----------------------------
+
+.. warning::
+    Ces informations ne sont actuellement pas collectées automatiquement.
+    Elle peuivent ne pas être à jour.
+
+29 paquetages triés par ordre alphabétique.
+
+ * :ref:`package_BaseDeDonnees` (10 rules)
+ * :ref:`package_CasDUtilisation` (17 rules)
+ * :ref:`package_Classe` (24 rules)
+ * :ref:`package_Deploiement` (1 rules)
+ * :ref:`package_Diagramme` (10 rules)
+ * :ref:`package_Document` (21 rules)
+ * :ref:`package_Etat` (21 rules)
+ * :ref:`package_Exigence` (13 rules)
+ * :ref:`package_Glossaire` (18 rules)
+ * :ref:`package_JavaCheckStyle` (147 rules)
+ * :ref:`package_Livrable` (17 rules)
+ * :ref:`package_Nomenclature` (19 rules)
+ * :ref:`package_ProgrammationWeb` (2 rules)
+ * :ref:`package_PythonPyLint` (179 rules)
+ * :ref:`package_Scenario` (23 rules)
+ * :ref:`package_Sequence` (1 rules)
+ * :ref:`package_Systeme` (5 rules)
+ * :ref:`package_Tache` (5 rules)
+ * :ref:`package_TexteTechnique` (35 rules)
+ * :ref:`package_Tracabilite` (3 rules)
+ * :ref:`package_UMLModelio` (187 rules)
+ * :ref:`package_UMLStarUML` (38 rules)
+ * :ref:`package_Valeur` (17 rules)
 
 .. ............................................................................
 
