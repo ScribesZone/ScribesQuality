@@ -143,6 +143,17 @@ Le nom de l'acteur principal associé à un cas d'utilisation est le sujet de la
 
 :paquetage: :ref:`package_CasDUtilisation`  
 
+.. _rule_AuMoinsUnActeur:
+
+AuMoinsUnActeur
+--------------------------------------------------------------------------------
+
+Chaque cas d'utilisation doit être associé à au moins un acteur.
+
+:meta:  Actor-UseCase
+
+:paquetage: :ref:`package_CasDUtilisation`  
+
 .. _rule_AuMoinsUnCU:
 
 AuMoinsUnCU
@@ -155,6 +166,28 @@ Au moins un cas d'utilisation doit être associé à chaque acteur.
 :exemple:  "Vigile" n'est pas un acteur d'un système de contrôle d'accès à un batiment si cet celui-ci se limite à surveiller le batiment mais n'interagit jamais avec le système.   
 
 :meta:  Actor-UseCase
+
+:paquetage: :ref:`package_CasDUtilisation`  
+
+.. _rule_ImplicationSystemeCU:
+
+ImplicationSystemeCU
+--------------------------------------------------------------------------------
+
+Le système doit être impliqué dans tous cas d'utilisation, sachant qu'un cas d'utilisation représente par définition une suite d'interactions entre le système et le (ou les) acteur(s).
+
+:exemple:  "AppelerPompiers" n'est pas un cas d'utilisation si cette action se fait via un téléphone ou tout être élément externe au système.
+
+:paquetage: :ref:`package_CasDUtilisation`  
+
+.. _rule_ImplicationActeurCU:
+
+ImplicationActeurCU
+--------------------------------------------------------------------------------
+
+L'acteur doit être impliqué dans chaque cas d'utilsation avec lequel il est relié car un cas d'utilisation représente par définition une suite d'interactions entre le système et un acteur (au moins). Si aucune interaction n'a lieu entre le système et un acteur, alors il ne peut y avoir de cas d'utilisation.
+
+:exemple:  Un cas d'utilisation nommé "GarderHistorique" implique qu'un acteur demande par exemple que la sauvegarde se fasse ou que l'acteur soit notifié de cette sauvegarde. Si ce n'est pas le cas, il ne s'agit sans doute pas d'un cas d'utilisation.
 
 :paquetage: :ref:`package_CasDUtilisation`  
 
@@ -262,9 +295,9 @@ Dans le cadre du **StyleCUDecore**, le stéréotype <<auxiliary>> doit être ass
 
 :paquetage: :ref:`package_CasDUtilisation`  
 
-.. _rule_StyleEssentiel:
+.. _rule_StyleCUEssentiel:
 
-StyleEssentiel
+StyleCUEssentiel
 --------------------------------------------------------------------------------
 
 Dans le cadre du **StyleCUEssentiel** la description du scenario ne doit pas faire de références inutiles à la manière dont les acteurs et le système intéragissent dans le détail, sachant que l'objectif d'un *cas d'utilisation essentiel* n'est pas de décrire des exigences sur une ou des interfaces personnes systèmes.

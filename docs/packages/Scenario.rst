@@ -40,12 +40,12 @@ Les termes importants utilisés dans le nom des scénarii doivent être définis
 
 :paquetage: :ref:`package_Scenario`  
 
-.. _rule_NomScenarioInstantie:
+.. _rule_NomScenarioInstancie:
 
-NomScenarioInstantie
+NomScenarioInstancie
 --------------------------------------------------------------------------------
 
-Le nom d'un scénario instantié doit faire autant que possible référence aux instances considérées dans le scénarios notamment à l'acteur instancié ou aux jeux de données considérées. Si trop d'information sont à décrire, il peut être préférable de numéroter les scénarii (voir :ref:`rule_NomScenario`) et de définir leur contenu via le résumé du scénario (voir :ref:`rule_IntentionScenario`).
+Le nom d'un scénario instancié doit faire autant que possible référence aux instances considérées dans le scénarios notamment à l'acteur instancié ou aux jeux de données considérées. Si trop d'information sont à décrire, il peut être préférable de numéroter les scénarii (voir :ref:`rule_NomScenario`) et de définir leur contenu via le résumé du scénario (voir :ref:`rule_IntentionScenario`).
 
 :paquetage: :ref:`package_Scenario`  
 
@@ -106,7 +106,7 @@ Le sujet d'une action doit correspondre (1) soit à un acteur instancié, (2) so
 
 :commentaire:  Dans un scenario instancié il est important d'instancier les acteurs et le système dans la mesure ou ces scénarii doivent être aussi concrets que possible pour pouvoir être validés par les différents intervenants. Par ailleurs, donner référencer des acteurs ou systèmes instanciés permet de décrire les caractéristiques de ces derniers plus en détails et par exemple de définir leur profil utilisateur lorsqu'il s'agit d'acteurs humains. Faire référence à un système instancié permet également de situer le scénario dans un contexte plus précis, en prenant en compte par exemple l'état du système instancié (qui pourrait en effet correspondre à un état particulier). Un tel degré de précision peu se réveler fort utile dans le cadre de l'élaboration de tests à partir   
 
-:exemple:  "Le système" devrait être remplacé par "cyberBatimentIMAG" si le système que l'on considère dans le scénario instancié correspond à l'instantiation du système CyberBatiment. Pour être plus précis, CyberBatiment est vu comme une classe de système pouvant être instantié (installé, configuré, etc.) dans différents contextes. Chaque instance de ce même système va maintenir un état, une configuration, etc, qui va être différente et les mêmes actions sur ces différentes instances de systèmes vont donc potentiellement donner des résultats différents. 
+:exemple:  "Le système" devrait être remplacé par "cyberBatimentIMAG" si le système que l'on considère dans le scénario instancié correspond à l'instanciation du système CyberBatiment. Pour être plus précis, CyberBatiment est vu comme une classe de système pouvant être instancié (installé, configuré, etc.) dans différents contextes. Chaque instance de ce même système va maintenir un état, une configuration, etc, qui va être différente et les mêmes actions sur ces différentes instances de systèmes vont donc potentiellement donner des résultats différents.
 
 :paquetage: :ref:`package_Scenario`  
 

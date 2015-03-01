@@ -23,7 +23,16 @@ La référence à une ligne <L> d'une ressource <R> se fait de la manière suiva
 CUExigenceFonctionnelle
 --------------------------------------------------------------------------------
 
-La relation entre un (ou plusieurs) cas d'utilisation et les exigences fonctionnelles ne sont pas clairs et/ou le cas d'utilisation ne semble pas justifié par une exigence fonctionnelle. 
+Un cas d'exigence doit être justifié par au moins un exigence fonctionnelle.
+
+:paquetage: :ref:`package_Tracabilite`  
+
+.. _rule_ExigenceFonctionnelleCU:
+
+ExigenceFonctionnelleCU
+--------------------------------------------------------------------------------
+
+Un exigence fonctionnelle peut donner lieu généralement à un seul cas d'utilisation. Si ce n'est pas le cas (si plusieurs cas d'utilisation sont associés à l'exigence fonctionnelle), il est important de vérifier s'il ne s'agit pas d'une erreur ou d'un manque de précision dans la définition de l'exigence fonctionnelle.
 
 :paquetage: :ref:`package_Tracabilite`  
 

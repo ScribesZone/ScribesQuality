@@ -36,6 +36,19 @@ Le format des ressources livrées n'est pas conforme aux attentes (voir :ref:`ru
 
 :paquetage: :ref:`package_Livrable`  
 
+.. _rule_VerificationLivrable:
+
+VerificationLivrable
+--------------------------------------------------------------------------------
+
+Chaque élément constitutif du livrable doit absolument être vérifie avant la livraison et toutes les règles qualités applicables doivent être impérativement contrôlées.
+
+:commentaire:  La qualité des livrables reflête généralement la qualité de ce qui se fait dans une organisation. Le client recevant un livrable de mauvaise qualité doit non seulement faire face aux problèmes posés par cette absence de qualité mais aura de plus une mauvaise image de l'organisation.
+
+:exemple:  Il est inadmissible de fournir un document sans le relire.
+
+:paquetage: :ref:`package_Livrable`  
+
 .. _rule_DescriptifLivrable:
 
 DescriptifLivrable

@@ -10,7 +10,13 @@ $DelaiLivrable:
 
 $FormatLivrable:
   Le format des ressources livrées n'est pas conforme aux attentes (cf $PackagingLivrable).
-  
+
+$VerificationLivrable:
+  Chaque élément constitutif du livrable doit absolument être vérifie avant la livraison et toutes les règles qualités applicables doivent être impérativement contrôlées.
+  Commentaire: La qualité des livrables reflête généralement la qualité de ce qui se fait dans une organisation. Le client recevant un livrable de mauvaise qualité doit non seulement faire face aux problèmes posés par cette absence de qualité mais aura de plus une mauvaise image de l'organisation.
+  Exemple: Il est inadmissible de fournir un document sans le relire.
+
+
 $DescriptifLivrable:
   Le descriptif d'un ou plusieurs livrable est manquant, incomplet ou incohérent.
   Commentaire: Dans le cas où un livrable composite est livré, c'est à dire que le livrable est formé de différents artefacts, par exemple rassemblés dans une archive, il est indispensable d'ajoindre un descriptif du contenu du livrable en mentionnant quels sont les artefacts livrés mais également les relations qui les lient. Ce descriptif peut prendre la forme d'un fichier "README", d'un manifeste, ou de tout autre artefact clairement identifiable.
