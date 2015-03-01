@@ -84,20 +84,18 @@ $FormatDate:
 #== Artefacts ==
 #  Annn(-n)?
 
-#== Activite ==
-#  RBDn  Reunion BD
-#  RIHMn  Reunion IHM
-#  RGLn  Reunion GL
-#  RPLn  Reunion PL
-  
-  
+
+$IdASCII:
+  Les identificateurs ne doivent comporter que des caractères ASCII et les accents sont donc à proscrire.
+  Commentaire: Dans le cadre de transformation de modèles ou de génération de code cette règle est essentielle car de nombreux outils et langages gère de manière indaptée les accentes par exemple.
+
 $MajMin:
-  L'identificateur doit correspondre à une suite de majuscules, minuscules ou chiffres, débutant par une majuscule.
+  L'identificateur doit correspondre à une suite de caractères ASCII (cf $IdASCII) formés de majuscules, minuscules ou chiffres, débutant par une majuscule.
   Commentaire: L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
   Exemple: "ConnecteurDInterface2", "SMSRenvoye"
 
 $MinMaj:
-  L'identificateur doit correspondre à une suite de majuscules, minuscules ou chiffres, débutant par une minuscule. 
+  L'identificateur doit correspondre à une suite de caractères ASCII (cf $IdASCII) formés de majuscules, minuscules ou chiffres, débutant par une minuscule.
   Commentaire: L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
   Exemple: "lesConnecteurs", "smsRenvoye2", "les4SMSRecus"
   

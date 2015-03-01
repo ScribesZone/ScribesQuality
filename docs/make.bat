@@ -1,6 +1,8 @@
 
 @ECHO OFF
 echo 'This script should be executed with cygwin'
+
+python bin\genreviewsrst.py
 C:\cygwin64\bin\bash bin\build-doc.sh
 
 

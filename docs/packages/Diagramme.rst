@@ -25,12 +25,27 @@ TitreDiagramme
 
 :paquetage: :ref:`package_Diagramme`  
 
-.. _rule_Densite:
+.. _rule_FigureLibrePourModele:
 
-Densite
+FigureLibrePourModele
 --------------------------------------------------------------------------------
 
-La densite des éléments dans la diagramme est soit trop importante soit insuffisante et le diagramme pourrait utilement être compacté ou au contraire étendu.
+Ne jamais utiliser de "figures libres" avec l'intention de créer des éléments de modèles.
+
+:commentaire:  Certains éditeurs de modèles propose dans leur palette la création libre de figure. Il ne faut jamais utiliser ces artifices graphiques car de tels artifices ne font pas parties du modèle, mais juste du diagramme et sont donc complètement ignorés dans le modèle et par tous les outils qui exploitent ce modèle (génération de documentation, génération de code, etc.)
+
+:exemple:  Dans le logiciel modelio, la palette nommée "Free Drawing" permet de dessiner des formes de bases mais cela n'a strictement aucun effet sur les modèles produits avec modelio.
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_DensiteDiagramme:
+
+DensiteDiagramme
+--------------------------------------------------------------------------------
+
+La densite des éléments dans le diagramme est soit trop importante soit insuffisante et le diagramme pourrait utilement être compacté, étendu ou décomposé en différents diagrammes.
+
+:commentaire:  Une erreur classique pour les novices en modélisation est de vouloir "tout représenter" sur un même diagramme. Cette approche ne fonctionne pas du tout pour des systèmes de tailles normales et différents diagrammes doivent alors être fait. Les outils de modélisations actuels permettent de créer facilement différents diagrammes et de les maintenir synchronisés.
 
 :paquetage: :ref:`package_Diagramme`  
 

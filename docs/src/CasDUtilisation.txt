@@ -114,11 +114,11 @@ $SousTypageActeur:
   
 #== Diagrammes:
 
-$ActeuronHumain:
-  Les acteurs ne correspondants pas des humains doivent être représentés graphiquement avec le stéréotype non humain.
-  
-  
-  
+$RepresentationActeurNonHumain:
+  Dans un diagramme de cas d'utilisations les acteurs non humains doivent être représentés graphiquement sous forme de rectangle avec le stéréotype <<Actor>> plutot que sous forme de bonhomme.
+  Commentaire: Cette règle est utile dans le cas de réunions par exemple avec des personnes non expertes en UML. L'utilisation de "bonhomme" pour des systèmes peut perturber inutilement l'auditoire et le lecteur. De plus cela permet visuellement de bien faire la différence entre les acteurs humains et les acteurs non humains.
+  Commentaire: Avec le logiciel Modelio cela peut se faire en sélectionnant l'acteur et en utilisant l'onglet ``Symbol`` puis ``Representation mode > Structured``.
+
 
 
 

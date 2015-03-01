@@ -248,12 +248,16 @@ Un acteur spécifique est un cas particulier de l'acteur qu'il spécialise.
 
 :paquetage: :ref:`package_CasDUtilisation`  
 
-.. _rule_ActeuronHumain:
+.. _rule_RepresentationActeurNonHumain:
 
-ActeuronHumain
+RepresentationActeurNonHumain
 --------------------------------------------------------------------------------
 
-Les acteurs ne correspondants pas des humains doivent être représentés graphiquement avec le stéréotype non humain.
+Dans un diagramme de cas d'utilisations les acteurs non humains doivent être représentés graphiquement sous forme de rectangle avec le stéréotype <<Actor>> plutot que sous forme de bonhomme.
+
+:commentaire:  Cette règle est utile dans le cas de réunions par exemple avec des personnes non expertes en UML. L'utilisation de "bonhomme" pour des systèmes peut perturber inutilement l'auditoire et le lecteur. De plus cela permet visuellement de bien faire la différence entre les acteurs humains et les acteurs non humains.
+
+:commentaire:  Avec le logiciel Modelio cela peut se faire en sélectionnant l'acteur et en utilisant l'onglet ``Symbol`` puis ``Representation mode > Structured``.
 
 :paquetage: :ref:`package_CasDUtilisation`  
 

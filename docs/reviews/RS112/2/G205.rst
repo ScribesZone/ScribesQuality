@@ -1,0 +1,20 @@
+﻿
+Audit RS112/2/G205
+==================
+
+8 des règle(s) utilisée(s) dans la relecture:
+
+
+* :ref:`rule_ActionAtomique`
+
+* :ref:`rule_ExempleScenario`
+
+* :ref:`rule_ExigencexMuliples`
+
+* :ref:`rule_MajMin`
+
+* :ref:`rule_NomActeur`
+
+* :ref:`rule_TermeAGlossaire`
+
+* :ref:`rule_VerficationLivrable`

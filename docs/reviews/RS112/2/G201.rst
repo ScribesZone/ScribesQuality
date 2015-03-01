@@ -1,0 +1,18 @@
+﻿
+Audit RS112/2/G201
+==================
+
+7 des règle(s) utilisée(s) dans la relecture:
+
+
+* :ref:`rule_CUExigenceFonctionnelle`
+
+* :ref:`rule_DefautDejaMentionne`
+
+* :ref:`rule_NomScenario`
+
+* :ref:`rule_NomenclatureActeur`
+
+* :ref:`rule_NomenclatureScenario`
+
+* :ref:`rule_OrthographeIdentificateur`

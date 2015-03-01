@@ -180,6 +180,19 @@ La description de l'action doit faire référence à des termes métiers et ne d
 
 :paquetage: :ref:`package_Scenario`  
 
+.. _rule_ExempleScenario:
+
+ExempleScenario
+--------------------------------------------------------------------------------
+
+Les scénarios instanciés doivent être basés sur des exemples réalistes et utiliser en priorité les exemples déjà existants dans le cadre du projet s'il en existe.
+
+:commentaire:  Il est assez classique dans des réunions, des discussions ou des documents d'utiliser des exemples précis et ces exemples doivent être utiliser autant que possible dans la mesure où ces derniers sont déjà connus par les intervenants du projet et peuvent être associés à des données ou documents existants.
+
+:exemple:  Dans le cadre de système de gestion de conférences, la conférence WAT2012 et le comité de programme présidé par de ralf gasevic, peut être utilisé dans les scénarios. Si des documents comme le site de la conférnce, la liste des articles acceptés, le comité d'organisation, sont disponibles il est bien évidemment très utile de se baser sur ces données comme objets dans les scénarios.
+
+:paquetage: :ref:`package_Scenario`  
+
 .. _rule_MessageInexplique:
 
 MessageInexplique

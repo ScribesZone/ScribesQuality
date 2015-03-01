@@ -155,12 +155,23 @@ FormatDate
 
 :paquetage: :ref:`package_Nomenclature`  
 
+.. _rule_IdASCII:
+
+IdASCII
+--------------------------------------------------------------------------------
+
+Les identificateurs ne doivent comporter que des caractères ASCII et les accents sont donc à proscrire.
+
+:commentaire:  Dans le cadre de transformation de modèles ou de génération de code cette règle est essentielle car de nombreux outils et langages gère de manière indaptée les accentes par exemple.
+
+:paquetage: :ref:`package_Nomenclature`  
+
 .. _rule_MajMin:
 
 MajMin
 --------------------------------------------------------------------------------
 
-L'identificateur doit correspondre à une suite de majuscules, minuscules ou chiffres, débutant par une majuscule.
+L'identificateur doit correspondre à une suite de caractères ASCII (voir :ref:`rule_IdASCII`) formés de majuscules, minuscules ou chiffres, débutant par une majuscule.
 
 :commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
 
@@ -173,7 +184,7 @@ L'identificateur doit correspondre à une suite de majuscules, minuscules ou chi
 MinMaj
 --------------------------------------------------------------------------------
 
-L'identificateur doit correspondre à une suite de majuscules, minuscules ou chiffres, débutant par une minuscule. 
+L'identificateur doit correspondre à une suite de caractères ASCII (voir :ref:`rule_IdASCII`) formés de majuscules, minuscules ou chiffres, débutant par une minuscule.
 
 :commentaire:  L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
 

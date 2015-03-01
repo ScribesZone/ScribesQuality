@@ -1,0 +1,4 @@
+This is a text with some rerefence to rules just like :rule:`DelaiLivrable` or like another one on the same line :rule:`NonLivre`.
+This is a second line.
+And a third with again the rule :rule:`DelaiLivrable`.
+The last one with :rule:`DeltasGraphiques` and :rule:`DeltasTextuels`

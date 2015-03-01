@@ -1,0 +1,36 @@
+﻿
+Audit RS112/2/G204
+==================
+
+16 des règle(s) utilisée(s) dans la relecture:
+
+
+* :ref:`rule_AuMoinsUnActeur`
+
+* :ref:`rule_CUExigenceFonctionnelle`
+
+* :ref:`rule_IntentionScenario`
+
+* :ref:`rule_NomScenario`
+
+* :ref:`rule_NomenclatureLivrable`
+
+* :ref:`rule_NomenclatureScenario`
+
+* :ref:`rule_Orthographe`
+
+* :ref:`rule_OrthographeIdentificateur`
+
+* :ref:`rule_Ortographe`
+
+* :ref:`rule_R`
+
+* :ref:`rule_ReferenceVersTerme`
+
+* :ref:`rule_SujetAction`
+
+* :ref:`rule_TermeAGlossaire`
+
+* :ref:`rule_ValeurConcrete`
+
+* :ref:`rule_VerificationLivrable`

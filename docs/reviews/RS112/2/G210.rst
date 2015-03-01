@@ -1,0 +1,10 @@
+﻿
+Audit RS112/2/G210
+==================
+
+3 des règle(s) utilisée(s) dans la relecture:
+
+
+* :ref:`rule_ImplicationSystemeCU`
+
+* :ref:`rule_TermeAGlossaire`

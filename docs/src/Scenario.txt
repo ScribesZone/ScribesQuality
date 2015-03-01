@@ -82,6 +82,10 @@ $ActionMetier:
   La description de l'action doit faire référence à des termes métiers et ne doit pas comporter par exemple de détails techniques inutiles ou ne correspondant pas au niveau d'abstraction du scénario.
   Exemple: "Paul demande la création d'un formulaire" n'est pas une action métier. Non seulement le métier de l'acteur ne consiste pas à "demander des formulaires", mais de plus ce genre de détails techniques contraint inutilement les choix futurs de conception ou de réalisation.
 
+$ExempleScenario:
+  Les scénarios instanciés doivent être basés sur des exemples réalistes et utiliser en priorité les exemples déjà existants dans le cadre du projet s'il en existe.
+  Commentaire: Il est assez classique dans des réunions, des discussions ou des documents d'utiliser des exemples précis et ces exemples doivent être utiliser autant que possible dans la mesure où ces derniers sont déjà connus par les intervenants du projet et peuvent être associés à des données ou documents existants.
+  Exemple: Dans le cadre de système de gestion de conférences, la conférence WAT2012 et le comité de programme présidé par de ralf gasevic, peut être utilisé dans les scénarios. Si des documents comme le site de la conférnce, la liste des articles acceptés, le comité d'organisation, sont disponibles il est bien évidemment très utile de se baser sur ces données comme objets dans les scénarios.
 
 #== Message
 $MessageInexplique:

@@ -1,0 +1,28 @@
+﻿
+Audit RS112/2/G209
+==================
+
+12 des règle(s) utilisée(s) dans la relecture:
+
+
+* :ref:`rule_ButCU`
+
+* :ref:`rule_DefautDejaMentionne`
+
+* :ref:`rule_NomScenario`
+
+* :ref:`rule_NomScenarioInstantie`
+
+* :ref:`rule_NomenclatureScenario`
+
+* :ref:`rule_Orthographe`
+
+* :ref:`rule_OrthographeIdentificateur`
+
+* :ref:`rule_ReferenceVersTerme`
+
+* :ref:`rule_StyleCUEssentiel`
+
+* :ref:`rule_SujetAction`
+
+* :ref:`rule_TermeAGlossaire`

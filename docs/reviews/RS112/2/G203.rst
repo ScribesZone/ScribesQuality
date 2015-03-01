@@ -1,0 +1,24 @@
+﻿
+Audit RS112/2/G203
+==================
+
+10 des règle(s) utilisée(s) dans la relecture:
+
+
+* :ref:`rule_ButCU`
+
+* :ref:`rule_MajMin`
+
+* :ref:`rule_MinMaj`
+
+* :ref:`rule_NomActeur`
+
+* :ref:`rule_NomActeurGlossaire`
+
+* :ref:`rule_NomCUGlossaire`
+
+* :ref:`rule_NomScenario`
+
+* :ref:`rule_NomenclatureScenario`
+
+* :ref:`rule_TermeAGlossaire`
