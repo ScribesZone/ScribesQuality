@@ -1,10 +1,17 @@
 ﻿#!/bin/sh
+#
+# Generate .rst files from .txt files expressed with a adhoc rule language
+# Takes all .txt files in the 'src' directory ang generate '.rst' files
+# The END rule contains call to  print_allPackages_RST()
+# Contains as well a markdown generator (which is now legacy)
+
 THISDIR=`dirname $0`
 SRCDIR=${THISDIR?}/../src
 SRCFILESPATTERN=${SRCDIR?}/*.txt
 HEADERFILE=${THISDIR?}/../src/plan/plan.txt
 OUTDIR=${THISDIR?}/..
 OUTFILE=${OUTDIR?}/index.md
+
 
 echo `ls $SRCFILESPATTERN | wc -l` source files
 ls $SRCFILESPATTERN
@@ -73,6 +80,8 @@ gawk '
       next      
     }
     
+
+
 
 
 
