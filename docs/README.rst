@@ -4,7 +4,7 @@ Structure
 ---------
 
 The ``src`` directory contains the source of hand-written packages of rules.
-These rules are expresse in a simple handcraft language that in turn generate
+These rules are expressed in a simple handcraft language that in turn generates
 rst files.
 
 The ``wrapper`` directory contains some code and documentation about
