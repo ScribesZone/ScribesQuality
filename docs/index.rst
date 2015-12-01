@@ -2,7 +2,7 @@ Ce site définit différentes règles de qualité pouvant être utilisées tout 
 
 .. attention::
     Ce site ne contient que la définition de règles de qualité. Certains
-    outils sont présentés dans le projet ScribeTools_.
+    outils sont présentés dans le projet ScribesTools_.
 
 
 .. tip::
@@ -125,5 +125,5 @@ vie et peuvent être utilisés tout au long du projet.
 
 .. ............................................................................
 
-.. _ScribeTools: http://scribetools.readthedocs.org
+.. _ScribesTools: http://scribestools.readthedocs.org
 

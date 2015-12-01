@@ -12,7 +12,7 @@ REVIEW_DIRECTORY = os.path.join(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__))),
     'reviews')
 
-# baseURL = 'http://scribequality.readthedocs.org/fr/latest/packages/'
+# baseURL = 'http://scribesquality.readthedocs.org/fr/latest/packages/'
 
 
 
