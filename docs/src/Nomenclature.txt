@@ -86,17 +86,19 @@ $FormatDate:
 
 
 $IdASCII:
-  Les identificateurs ne doivent comporter que des caractères ASCII et les accents sont donc à proscrire.
-  Commentaire: Dans le cadre de transformation de modèles ou de génération de code cette règle est essentielle car de nombreux outils et langages gère de manière indaptée les accentes par exemple.
+  Les identificateurs ne doivent comporter que des caractères ASCII et donc les accents sont donc à proscrire.
+  Commentaire: Dans le cadre de transformation de modèles ou de génération de code cette règle est essentielle car de nombreux outils et langages gèrent de manière indaptée les accentes par exemple.
 
 $MajMin:
   L'identificateur doit correspondre à une suite de caractères ASCII (cf $IdASCII) formés de majuscules, minuscules ou chiffres, débutant par une majuscule.
   Commentaire: L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
+  Commentaire: Ce style est aussi communément appelé CamelCase (par opposition a snake_case par exemple).
   Exemple: "ConnecteurDInterface2", "SMSRenvoye"
 
 $MinMaj:
   L'identificateur doit correspondre à une suite de caractères ASCII (cf $IdASCII) formés de majuscules, minuscules ou chiffres, débutant par une minuscule.
   Commentaire: L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs.
+  Commentaire: Le style MinMaj est aussi appelé camelCase.
   Exemple: "lesConnecteurs", "smsRenvoye2", "les4SMSRecus"
   
 $MinMajSouligne:
@@ -107,7 +109,12 @@ $MinMajSouligne:
 $MAJSouligneMAJ:
   L'identificateur doit correspondre à une suite séquences de majuscules, chiffres et soulignés ("_").
   Commentaire: L'identificateur ne doit comporter ni espaces, ni accents, ni délimiteurs autre que le souligné "_".
+  Commentaire: Ce style est aussi appelé SNAKE_CASE ou SCREAMING_SNAKE_CASE
   Exemple: "CONST_WINDOW_CLOSED"
+
+$MinSouligne:
+  L'identificateur doit correspondre à une suite de minuscules ou soulignés ("_").
+  Commentaire: Ce style est communément appelé sake_case (par opposition à CamelCase).
 
 $StyleSIdentificateur:
   Différents styles d'intentificateurs sont utilisés sans pour autant que l'on puisse déterminer dans quelles conditions ces styles varient, s'ils sont utilisés de manière consistentes ou non. C'est le cas par exemple lorsque certains indentificateurs sont issues à la fois de styles MajMin, MinMaj, MAJSouligneMAJ etc, ou dans toutes autres combinaisons ad-hoc.
