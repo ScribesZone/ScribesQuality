@@ -1,5 +1,11 @@
 #= BaseDeDonnees
 
+#== MotsCles
+
+$MotsClesSqlMAJ
+  Tous les mots clés SQL doivent être en MAJUSCULES.
+  Exemples: "CREATE TABLE"
+
 #== Relations
 
 $NomRelation:
@@ -13,7 +19,7 @@ $NomenclatureRelation:
 
 $NomRelationGlossaire:
   Les termes utilisés dans le nom des relations doivent être définis dans le glossaire. Si une abbréviation est utilisée celle-ci devra être impérativement définie dans le glossaire.  
-  
+
 #== Colonnes
 $NomColonne:
   Dans une relation, le nom de chaque colonne doit correspondre à une forme nominale correspondant à l'attribut ou au concept représenté, sauf eventuellement pour les colonnes représentant une valeur booléenne auxquel cas une forme verbale peut être acceptable. Par ailleurs les termes utilisés dans le nom doivent être définis dans le glossaire. Si une abbréviation est utilisée celle-ci devra être impérativement définie dans le glossaire.
@@ -39,3 +45,4 @@ $Schema2FN:
   
 $Schema3FN:
   Le schéma de la base de données doit être en 3ème forme normale.
+
