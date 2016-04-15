@@ -1,10 +1,14 @@
 #= BaseDeDonnees
 
-#== MotsCles
+#== MiseEnPageSQL
 
 $MotsClesSqlMAJ
   Tous les mots clés SQL doivent être en MAJUSCULES.
   Exemples: "CREATE TABLE"
+
+
+$IndentationSQL
+  Les requêtes SQL doivent être indentées avec 4 espaces et sauf cas particulier les mots clés SELECT FROM WHERE GROUP HAVING ORDER doivent être alignés verticalement pour un même requête SELECT.
 
 #== Relations
 
