@@ -123,6 +123,8 @@ vie et peuvent être utilisés tout au long du projet.
  * :ref:`package_UMLStarUML` (38 rules)
  * :ref:`package_Valeur` (17 rules)
 
+Et si tu sais pas quoi faire joue le jeu du promoteur sur http://jouelejeudupromoteur.lol
+
 .. ............................................................................
 
 .. _ScribesTools: http://scribestools.readthedocs.org
