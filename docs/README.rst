@@ -32,4 +32,4 @@ generate the  ``_build/html``.
 
 Caveat
 ------
-TODO: add the moment the number of
+TODO: add the moment the number of rules is not computed
