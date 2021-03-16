@@ -1,4 +1,4 @@
-Ce site définit différentes règles de qualité pouvant être utilisées tout au long du cycle de vie du logiciel. Les règles sont rangées par paquetage, chaque paquetage. Chaque paquetage correspond soit à une étape du cycle de vie, spoit à un aspect transversal. Certains paquetages correspondent à des règles vérifiées par des outils existants tel que Modelio ou StarUML.
+git aCe site définit différentes règles de qualité pouvant être utilisées tout au long du cycle de vie du logiciel. Les règles sont rangées par paquetage, chaque paquetage. Chaque paquetage correspond soit à une étape du cycle de vie, spoit à un aspect transversal. Certains paquetages correspondent à des règles vérifiées par des outils existants tel que Modelio ou StarUML.
 
 .. attention::
     Ce site ne contient que la définition de règles de qualité. Certains
@@ -122,8 +122,6 @@ vie et peuvent être utilisés tout au long du projet.
  * :ref:`package_UMLModelio` (187 rules)
  * :ref:`package_UMLStarUML` (38 rules)
  * :ref:`package_Valeur` (17 rules)
-
-Et si tu sais pas quoi faire joue le jeu du promoteur sur http://jouelejeudupromoteur.lol
 
 .. ............................................................................
 

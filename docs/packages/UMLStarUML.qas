@@ -1,0 +1,88 @@
+qa model UMLStarUML
+
+rule StarUML1:
+    | AssociationEnds within an Association must have unique names. --- Association
+rule StarUML2:
+    | Two or more Aggregations or Composite AssociationEnds cannot exist within an Association. --- Association
+rule StarUML3:
+    | Parameters must have unique names. --- BehavioralFeature
+rule StarUML4:
+    | Attributes of the same name cannot exist within a Classifier. --- Classifier
+rule StarUML5:
+    | AssociationEnds on the other side must have unique names. --- Classifier
+rule StarUML6:
+    | An Attribute cannot have the same name as the Association on the other side, or as elements included in Classifier. --- Classifier
+rule StarUML7:
+    | AssociationEnd on the other side cannot have the same name as elements included in Classifier or its Attribute name. --- Classifier
+rule StarUML8:
+    | Root element cannot have elements that are more generalized than itself. --- GeneralizableElement
+rule StarUML9:
+    | Leaf element cannot have elements that are more specialized than itself. --- GeneralizableElement
+rule StarUML10:
+    | Looped inheritance structure is not allowed. --- GeneralizableElement
+rule StarUML11:
+    | All features of interfaces must be public. --- Interface
+rule StarUML12:
+    | ComponentInstance must accurately assign a component as its origin. --- ComponentInstance
+rule StarUML13:
+    | NodeInstance must accurately assign a node as its origin. --- NodeInstance
+rule StarUML14:
+    | AssociationEndRole must be connected with ClassifierRole. --- AssociationEndRole
+rule StarUML15:
+    | ClassifierRole cannot have its own features. --- ClassifierRole
+rule StarUML16:
+    | ClassifierRole cannot become the ClassifierRole for another ClassifierRole. --- ClassifierRole
+rule StarUML17:
+    | Sender and receiver of a message must participate in the collaboration that constitutes the interaction context. --- Message
+rule StarUML18:
+    | Actor can only have associations that are connected to UseCase, Class or Subsystem. --- Actor
+rule StarUML19:
+    | CompositeState can have a maximum of one initial state only. --- CompositeState
+rule StarUML20:
+    | CompositeState can have a maximum of one deep history only. --- CompositeState
+rule StarUML21:
+    | CompositeState can have a maximum of one shallow history only. --- CompositeState
+rule StarUML22:
+    | Concurrent composite state must contain a minimum of two composite states. --- CompositeState
+rule StarUML23:
+    | Concurrent state can only have composite state as its sub state. --- CompositeState
+rule StarUML24:
+    | Final state cannot have outgoing transition. --- FinalState
+rule StarUML25:
+    | Initial state can have a maximum of one outgoing transition and cannot have incoming transition. --- Pseudostate
+rule StarUML26:
+    | History state can have a maximum of one outgoing transition. --- Pseudostate
+rule StarUML27:
+    | Junction vertex must have a minimum of one incoming transition and one outgoing transition each. --- Pseudostate
+rule StarUML28:
+    | Choice vertex must have a minimum of one incoming transition and one outgoing transition each. --- Pseudostate
+rule StarUML29:
+    | StateMachine can be integrated either with Classifier or with BehavioralFeature. --- StateMachine
+rule StarUML30:
+    | Top state must always be composite state. --- StateMachine
+rule StarUML31:
+    | No state can contain top state. --- StateMachine
+rule StarUML32:
+    | Top state cannot have outgoing transition. --- StateMachine
+rule StarUML33:
+    | SubmachineState cannot have concurrency. --- SubmachineState
+rule StarUML34:
+    | Transition that points to Pseudostate cannot have Trigger. --- Transition
+rule StarUML35:
+    | ActivityGraph can express dynamic behavior of Package, Classifier or BehavioralFeature. --- ActivityGraph
+rule StarUML36:
+    | ActionState cannot have internal transition, exit action or do activity. --- ActionState
+rule StarUML37:
+    | Outgoing transition of ActionState cannot have trigger event. --- ActionState
+rule StarUML38:
+    | SubactivityState must have connection to ActivityGraph. --- SubactivityState
+
+
+
+
+
+
+
+
+
+

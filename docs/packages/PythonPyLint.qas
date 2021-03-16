@@ -1,0 +1,1096 @@
+qa model PythonPyLint
+
+rule Python0102:
+    | Black listed name ""%s""
+
+
+
+%s already defined line %s
+
+
+
+Dangerous default value %s as argument
+
+
+rule Python0103:
+    | Invalid %s name ""%s""
+
+
+
+%r not properly in loop
+
+
+rule Python0111:
+    | Missing %s docstring
+
+
+rule Python0112:
+    | Empty %s docstring
+
+
+rule Python0121:
+    | Missing required attribute ""%s""
+
+
+
+Use raise ErrorClass(args) instead of raise ErrorClass, args.
+
+
+rule Python0202:
+    | Class method %s should have cls as first argument
+
+
+
+An attribute affected in %s line %s hide this method
+
+
+
+Unable to check methods signature (%s / %s)
+
+
+rule Python0203:
+    | Metaclass method %s should have mcs as first argument
+
+
+
+Access to member %r before its definition line %s
+
+
+rule Python0204:
+    | Metaclass class method %s should have %s as first argument
+
+
+rule Python0301:
+    | Line too long (%s/%s)
+
+
+
+Unnecessary semicolon
+
+
+rule Python0302:
+    | Too many lines in module (%s)
+
+
+rule Python0303:
+    | Trailing whitespace
+
+
+rule Python0304:
+    | Final newline missing
+
+
+rule Python0321:
+    | More than one statement on a single line
+
+
+
+Old: Format detection error in %r
+
+
+rule Python0322:
+    | Old: Operator not preceded by a space
+
+
+rule Python0323:
+    | Old: Operator not followed by a space
+
+
+rule Python0324:
+    | Old: Comma not followed by a space
+
+
+rule Python0325:
+    | Unnecessary parens after %r keyword
+
+
+rule Python0326:
+    | %s space %s %s %s\n%s
+
+
+rule Python1001:
+    | Old-style class defined.
+
+
+
+Use of __slots__ on an old style class
+
+
+
+Use of ""property"" on an old style class
+
+
+rule Python0001:
+    | (syntax error raised for a module; message varies)
+
+
+
+(error prevented analysis; message varies)
+
+
+
+Unable to run raw checkers on built-in module %s
+
+
+rule Python0011:
+    | Unrecognized file option %r
+
+
+
+Locally disabling %s
+
+
+rule Python0012:
+    | Bad option value %r
+
+
+
+Locally enabling %s
+
+
+rule Python0100:
+    | __init__ method is a generator
+
+
+rule Python0101:
+    | Explicit return in __init__
+
+
+
+Unreachable code
+
+
+rule Python0102:
+    | Black listed name ""%s""
+
+
+
+%s already defined line %s
+
+
+
+Dangerous default value %s as argument
+
+
+rule Python0103:
+    | Invalid %s name ""%s""
+
+
+
+%r not properly in loop
+
+
+rule Python0104:
+    | Return outside function
+
+
+
+Statement seems to have no effect
+
+
+rule Python0105:
+    | Yield outside function
+
+
+
+String statement has no effect
+
+
+rule Python0106:
+    | Return with argument inside generator
+
+
+
+Expression ""%s"" is assigned to nothing
+
+
+rule Python0107:
+    | Use of the non-existent %s operator
+
+
+
+Unnecessary pass statement
+
+
+rule Python0108:
+    | Duplicate argument name %s in function definition
+
+
+
+Lambda may not be necessary
+
+
+rule Python0202:
+    | Class method %s should have cls as first argument
+
+
+
+An attribute affected in %s line %s hide this method
+
+
+
+Unable to check methods signature (%s / %s)
+
+
+rule Python0203:
+    | Metaclass method %s should have mcs as first argument
+
+
+
+Access to member %r before its definition line %s
+
+
+rule Python0211:
+    | Method has no argument
+
+
+
+Static method with %r as first argument
+
+
+rule Python0213:
+    | Method should have ""self"" as first argument
+
+
+rule Python0221:
+    | Interface resolved to %s is not a class
+
+
+
+Arguments number differs from %s method
+
+
+rule Python0222:
+    | Missing method %r from %s interface
+
+
+
+Signature differs from %s method
+
+
+rule Python0235:
+    | __exit__ must accept 3 arguments: type, value, traceback
+
+
+rule Python0501:
+    | Old: Non ascii characters found but no encoding specified (PEP 263)
+
+
+rule Python0502:
+    | Old: Wrong encoding specified (%s)
+
+
+rule Python0503:
+    | Old: Unknown encoding specified (%s)
+
+
+rule Python0601:
+    | Using variable %r before assignment
+
+
+
+Global variable %r undefined at the module level
+
+
+rule Python0602:
+    | Undefined variable %r
+
+
+
+Using global for %r but no assigment is done
+
+
+rule Python0603:
+    | Undefined variable name %r in __all__
+
+
+
+Using the global statement
+
+
+rule Python0604:
+    | Invalid object %r in __all__, must contain only strings
+
+
+
+Using the global statement at the module level
+
+
+rule Python0611:
+    | No name %r in module %r
+
+
+
+Unused import %s
+
+
+rule Python0701:
+    | Bad except clauses order (%s)
+
+
+
+Raising a string exception
+
+
+rule Python0702:
+    | Raising %s while only classes, instances or string are allowed
+
+
+
+No exception type(s) specified
+
+
+rule Python0710:
+    | Raising a new style class which doesn't inherit from BaseException
+
+
+
+Exception doesn't inherit from standard ""Exception"" class
+
+
+rule Python0711:
+    | NotImplemented raised - should raise NotImplementedError
+
+
+
+Exception to catch is the result of a binary ""%s"" operation
+
+
+rule Python0712:
+    | Catching an exception which doesn\'t inherit from BaseException: %s
+
+
+
+Implicit unpacking of exceptions is not supported in Python 3
+
+
+rule Python1001:
+    | Old-style class defined.
+
+
+
+Use of __slots__ on an old style class
+
+
+
+Use of ""property"" on an old style class
+
+
+rule Python1002:
+    | Use of super on an old style class
+
+
+rule Python1003:
+    | Bad first argument %r given to super()
+
+
+rule Python1004:
+    | Missing argument to super()
+
+
+rule Python1101:
+    | %s %r has no %r member
+
+
+rule Python1102:
+    | %s is not callable
+
+
+rule Python1103:
+    | %s %r has no %r member (but some types could not be inferred)
+
+
+rule Python1111:
+    | Assigning to function call which doesn't return
+
+
+
+Assigning to function call which only returns None
+
+
+rule Python1120:
+    | No value passed for parameter %s in function call
+
+
+rule Python1121:
+    | Too many positional arguments for function call
+
+
+rule Python1122:
+    | Old: Duplicate keyword argument %r in function call
+
+
+rule Python1123:
+    | Passing unexpected keyword argument %r in function call
+
+
+rule Python1124:
+    | Parameter %r passed as both positional and keyword argument
+
+
+rule Python1125:
+    | Old: Missing mandatory keyword argument %r
+
+
+rule Python1200:
+    | Unsupported logging format character %r (%#02x) at index %d
+
+
+rule Python1201:
+    | Logging format string ends in middle of conversion specifier
+
+
+
+Specify string format arguments as logging function parameters
+
+
+rule Python1205:
+    | Too many arguments for logging format string
+
+
+rule Python1206:
+    | Not enough arguments for logging format string
+
+
+rule Python1300:
+    | Unsupported format character %r (%#02x) at index %d
+
+
+
+Format string dictionary key should be a string, not %s
+
+
+rule Python1301:
+    | Format string ends in middle of conversion specifier
+
+
+
+Unused key %r in format string dictionary
+
+
+rule Python1302:
+    | Mixing named and unnamed conversion specifiers in format string
+
+
+rule Python1303:
+    | Expected mapping for format string, not %s
+
+
+rule Python1304:
+    | Missing key %r in format string dictionary
+
+
+rule Python1305:
+    | Too many arguments for format string
+
+
+rule Python1306:
+    | Not enough arguments for format string
+
+
+rule Python1310:
+    | Suspicious argument in %s.%s call
+
+
+rule Python0001:
+    | (syntax error raised for a module; message varies)
+
+
+
+(error prevented analysis; message varies)
+
+
+
+Unable to run raw checkers on built-in module %s
+
+
+rule Python0002:
+    | %s: %s (message varies)
+
+
+rule Python0003:
+    | ignored builtin module %s
+
+
+rule Python0004:
+    | unexpected inferred value %s
+
+
+rule Python0010:
+    | error while code parsing: %s
+
+
+
+Unable to consider inline option %r
+
+
+rule Python0202:
+    | Class method %s should have cls as first argument
+
+
+
+An attribute affected in %s line %s hide this method
+
+
+
+Unable to check methods signature (%s / %s)
+
+
+rule Python0220:
+    | failed to resolve interfaces implemented by %s (%s)
+
+
+rule Python0321:
+    | More than one statement on a single line
+
+
+
+Old: Format detection error in %r
+
+
+rule Python0401:
+    | Unable to import %s
+
+
+
+Cyclic import (%s)
+
+
+
+Wildcard import %s
+
+
+rule Python0001:
+    | (syntax error raised for a module; message varies)
+
+
+
+(error prevented analysis; message varies)
+
+
+
+Unable to run raw checkers on built-in module %s
+
+
+rule Python0010:
+    | error while code parsing: %s
+
+
+
+Unable to consider inline option %r
+
+
+rule Python0011:
+    | Unrecognized file option %r
+
+
+
+Locally disabling %s
+
+
+rule Python0012:
+    | Bad option value %r
+
+
+
+Locally enabling %s
+
+
+rule Python0013:
+    | Ignoring entire file
+
+
+rule Python0014:
+    | Used deprecated directive ""pylint:disable-all"" or ""pylint:disable=all""
+
+
+rule Python0020:
+    | Suppressed %s (from line %d)
+
+
+rule Python0021:
+    | Useless suppression of %s
+
+
+rule Python0022:
+    | Deprecated pragma ""pylint:disable-msg"" or ""pylint:enable-msg""
+
+
+rule Python0201:
+    | Method could be a function
+
+
+
+Attribute %r defined outside __init__
+
+
+rule Python0401:
+    | Unable to import %s
+
+
+
+Cyclic import (%s)
+
+
+
+Wildcard import %s
+
+
+rule Python0801:
+    | Similar lines in %s files
+
+
+rule Python0901:
+    | Too many ancestors (%s/%s)
+
+
+rule Python0902:
+    | Too many instance attributes (%s/%s)
+
+
+rule Python0903:
+    | Too few public methods (%s/%s)
+
+
+rule Python0904:
+    | Too many public methods (%s/%s)
+
+
+rule Python0911:
+    | Too many return statements (%s/%s)
+
+
+rule Python0912:
+    | Too many branches (%s/%s)
+
+
+rule Python0913:
+    | Too many arguments (%s/%s)
+
+
+rule Python0914:
+    | Too many local variables (%s/%s)
+
+
+rule Python0915:
+    | Too many statements (%s/%s)
+
+
+rule Python0921:
+    | Abstract class not referenced
+
+
+rule Python0922:
+    | Abstract class is only referenced %s times
+
+
+rule Python0923:
+    | Interface not implemented
+
+
+rule Python0101:
+    | Explicit return in __init__
+
+
+
+Unreachable code
+
+
+rule Python0102:
+    | Black listed name ""%s""
+
+
+
+%s already defined line %s
+
+
+
+Dangerous default value %s as argument
+
+
+rule Python0104:
+    | Return outside function
+
+
+
+Statement seems to have no effect
+
+
+rule Python0105:
+    | Yield outside function
+
+
+
+String statement has no effect
+
+
+rule Python0106:
+    | Return with argument inside generator
+
+
+
+Expression ""%s"" is assigned to nothing
+
+
+rule Python0107:
+    | Use of the non-existent %s operator
+
+
+
+Unnecessary pass statement
+
+
+rule Python0108:
+    | Duplicate argument name %s in function definition
+
+
+
+Lambda may not be necessary
+
+
+rule Python0109:
+    | Duplicate key %r in dictionary
+
+
+rule Python0110:
+    | map/filter on lambda could be replaced by comprehension
+
+
+rule Python0120:
+    | Else clause on loop without a break statement
+
+
+rule Python0121:
+    | Missing required attribute ""%s""
+
+
+
+Use raise ErrorClass(args) instead of raise ErrorClass, args.
+
+
+rule Python0122:
+    | Use of exec
+
+
+rule Python0141:
+    | Used builtin function %r
+
+
+rule Python0142:
+    | Used * or ** magic
+
+
+rule Python0150:
+    | %s statement in finally block may swallow exception
+
+
+rule Python0199:
+    | Assert called on a 2-uple. Did you mean \'assert x,y\'?
+
+
+rule Python0201:
+    | Method could be a function
+
+
+
+Attribute %r defined outside __init__
+
+
+rule Python0211:
+    | Method has no argument
+
+
+
+Static method with %r as first argument
+
+
+rule Python0212:
+    | Access to a protected member %s of a client class
+
+
+rule Python0221:
+    | Interface resolved to %s is not a class
+
+
+
+Arguments number differs from %s method
+
+
+rule Python0222:
+    | Missing method %r from %s interface
+
+
+
+Signature differs from %s method
+
+
+rule Python0223:
+    | Method %r is abstract in class %r but is not overridden
+
+
+rule Python0231:
+    | __init__ method from base class %r is not called
+
+
+rule Python0232:
+    | Class has no __init__ method
+
+
+rule Python0233:
+    | __init__ method from a non direct base class %r is called
+
+
+rule Python0234:
+    | iter returns non-iterator
+
+
+rule Python0301:
+    | Line too long (%s/%s)
+
+
+
+Unnecessary semicolon
+
+
+rule Python0311:
+    | Bad indentation. Found %s %s, expected %s
+
+
+rule Python0312:
+    | Found indentation with %ss instead of %ss
+
+
+rule Python0331:
+    | Use of the <> operator
+
+
+rule Python0332:
+    | Use of ""l"" as long integer identifier
+
+
+rule Python0333:
+    | Use of the `` operator
+
+
+rule Python0401:
+    | Unable to import %s
+
+
+
+Cyclic import (%s)
+
+
+
+Wildcard import %s
+
+
+rule Python0402:
+    | Uses of a deprecated module %r
+
+
+rule Python0403:
+    | Relative import %r, should be %r
+
+
+rule Python0404:
+    | Reimport %r (imported line %s)
+
+
+rule Python0406:
+    | Module import itself
+
+
+rule Python0410:
+    | __future__ import is not the first non docstring statement
+
+
+rule Python0511:
+    | (warning notes in code comments; message varies)
+
+
+rule Python0512:
+    | Cannot decode using encoding ""%s"", unexpected byte at position %d
+
+
+rule Python0601:
+    | Using variable %r before assignment
+
+
+
+Global variable %r undefined at the module level
+
+
+rule Python0602:
+    | Undefined variable %r
+
+
+
+Using global for %r but no assigment is done
+
+
+rule Python0603:
+    | Undefined variable name %r in __all__
+
+
+
+Using the global statement
+
+
+rule Python0604:
+    | Invalid object %r in __all__, must contain only strings
+
+
+
+Using the global statement at the module level
+
+
+rule Python0611:
+    | No name %r in module %r
+
+
+
+Unused import %s
+
+
+rule Python0612:
+    | Unused variable %r
+
+
+rule Python0613:
+    | Unused argument %r
+
+
+rule Python0614:
+    | Unused import %s from wildcard import
+
+
+rule Python0621:
+    | Redefining name %r from outer scope (line %s)
+
+
+rule Python0622:
+    | Redefining built-in %r
+
+
+rule Python0623:
+    | Redefining name %r from %s in exception handler
+
+
+rule Python0631:
+    | Using possibly undefined loop variable %r
+
+
+rule Python0632:
+    | Possible unbalanced tuple unpacking with sequence%s: …
+
+
+rule Python0633:
+    | Attempting to unpack a non-sequence%s
+
+
+rule Python0701:
+    | Bad except clauses order (%s)
+
+
+
+Raising a string exception
+
+
+rule Python0702:
+    | Raising %s while only classes, instances or string are allowed
+
+
+
+No exception type(s) specified
+
+
+rule Python0703:
+    | Catching too general exception %s
+
+
+rule Python0704:
+    | Except doesn't do anything
+
+
+rule Python0710:
+    | Raising a new style class which doesn't inherit from BaseException
+
+
+
+Exception doesn't inherit from standard ""Exception"" class
+
+
+rule Python0711:
+    | NotImplemented raised - should raise NotImplementedError
+
+
+
+Exception to catch is the result of a binary ""%s"" operation
+
+
+rule Python0712:
+    | Catching an exception which doesn\'t inherit from BaseException: %s
+
+
+
+Implicit unpacking of exceptions is not supported in Python 3
+
+
+rule Python1001:
+    | Old-style class defined.
+
+
+
+Use of __slots__ on an old style class
+
+
+
+Use of ""property"" on an old style class
+
+
+rule Python1111:
+    | Assigning to function call which doesn't return
+
+
+
+Assigning to function call which only returns None
+
+
+rule Python1201:
+    | Logging format string ends in middle of conversion specifier
+
+
+
+Specify string format arguments as logging function parameters
+
+
+rule Python1300:
+    | Unsupported format character %r (%#02x) at index %d
+
+
+
+Format string dictionary key should be a string, not %s
+
+
+rule Python1301:
+    | Format string ends in middle of conversion specifier
+
+
+
+Unused key %r in format string dictionary
+
+
+rule Python1401:
+    | Anomalous backslash in string: \'%s\'. String constant might be missing an r prefix.
+
+
+rule Python1402:
+    | Anomalous Unicode escape in byte string: \'%s\'. String constant might be missing an r or u prefix.
+
+
+rule Python1501:
+    | ""%s"" is not a valid mode for open.
+
+
+
+

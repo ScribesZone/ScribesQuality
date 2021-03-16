@@ -1,0 +1,139 @@
+
+
+.. _package_Diagramme:
+
+Diagramme
+================================================================================
+
+.. _rule_NomDiagramme::
+
+NomDiagramme:
+--------------------------------------------------------------------------------
+
+Le nom des diagrammes doit reflêter ce qu'ils modélisent et peuvent donc utilement faire référence à un modèle, à un artéfact, etc. Le type de diagramme (voir :ref:`rule_TypeDeDiagramme`) peut également être utilement inséré dans ce titre.
+
+:commentaire:  Le type de diagramme est peut généralement être aisement inféré en regardant le diagramme, mais si le nom du diagramme est utilisé comme titre de figure et que ce dernier est dans une liste de figure, il est intéressant de disposer de cette information. Le modèle ou artéfact auquel fait référence le diagramme est parfois facile a inférer via le contexte dans lequel le diagramme est disposé, mais hors de ce contexte cette information est perdue et il est donc essentiel d'indiquer "à quoi" correspond le diagramme.
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_TitreDiagramme::
+
+TitreDiagramme:
+--------------------------------------------------------------------------------
+
+(voir :ref:`rule_NomDiagramme`) TODO: to be removed
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_FigureLibrePourModele::
+
+FigureLibrePourModele:
+--------------------------------------------------------------------------------
+
+Ne jamais utiliser de "figures libres" avec l'intention de créer des éléments de modèles.
+
+:commentaire:  Certains éditeurs de modèles propose dans leur palette la création libre de figure. Il ne faut jamais utiliser ces artifices graphiques car de tels artifices ne font pas parties du modèle, mais juste du diagramme et sont donc complètement ignorés dans le modèle et par tous les outils qui exploitent ce modèle (génération de documentation, génération de code, etc.)
+
+:exemple:  Dans le logiciel modelio, la palette nommée "Free Drawing" permet de dessiner des formes de bases mais cela n'a strictement aucun effet sur les modèles produits avec modelio.
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_DensiteDiagramme::
+
+DensiteDiagramme:
+--------------------------------------------------------------------------------
+
+La densite des éléments dans le diagramme est soit trop importante soit insuffisante et le diagramme pourrait utilement être compacté, étendu ou décomposé en différents diagrammes.
+
+:commentaire:  Une erreur classique pour les novices en modélisation est de vouloir "tout représenter" sur un même diagramme. Cette approche ne fonctionne pas du tout pour des systèmes de tailles normales et différents diagrammes doivent alors être fait. Les outils de modélisations actuels permettent de créer facilement différents diagrammes et de les maintenir synchronisés.
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_Disposition::
+
+Disposition:
+--------------------------------------------------------------------------------
+
+La disposition spatiale des différents éléments graphiques dans le diagramme n'est pas conventionelle, nuit à la lisibilité du diagramme et/ou devrait être améliorée ou optimisée.
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_Couleurs::
+
+Couleurs:
+--------------------------------------------------------------------------------
+
+L'utilisation des couleurs n'est pas optimale et pourrait être améliorée soit en diminuant, soit en augmentant le nombre des couleurs, soit en rendant explicites leur signification dans le diagramme par exemple via une note.
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_Chevauchements::
+
+Chevauchements:
+--------------------------------------------------------------------------------
+
+De nombreux chevauchements d'éléments graphiques rendent la lecture du diagramme difficile.
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_Surcharge::
+
+Surcharge:
+--------------------------------------------------------------------------------
+
+Le diagramme comporte trop d'éléments graphiques et/ou textuels.
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_ContenuPauvre::
+
+ContenuPauvre:
+--------------------------------------------------------------------------------
+
+Le contenu du diagramme est trop pauvre pour que ce dernier soit réellement pertinent. Soit le diagramme manque de détails soit l'existence du diagramme ou plus simplement son indroduction dans un document pourrait être mise en cause ; c'est le cas si l'information contenue dans le diagramme peut être dérivée à partir d'autres éléments déjà présents dans le document et d'une certaine manière "n'apporte rien".
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_ContenuHeterogene::
+
+ContenuHeterogene:
+--------------------------------------------------------------------------------
+
+Le contenu du diagramme est hétérogène et il n'est pas facile de comprendre quelle est la cohérence entre les différents éléments présentés.
+
+:commentaire:  Dans le cas de modèle non triviaux, un même modèle peut comporter trop d'élément pour étre représenté graphiquement en un seul diagramme est il est donc souhaitable de fournir plusieurs vues sur le modèles sous la forme de différents diagrammes. Chaque vue doit être consistente et correspondre à une intention particulière. La répartition des éléments dans les différents diagrammes doivent pouvoir être justifié.
+
+:exemple:  Si un modèle de cas d'utilisation est complexe, différents diagrammes de cas d'utilisation doivent certainement être créés. La manière de regrouper les différents cas d'utilisation en diagrammes doit pouvoir être justifié. 
+
+
+
+:paquetage: :ref:`package_Diagramme`  
+
+.. _rule_TypeDeDiagramme::
+
+TypeDeDiagramme:
+--------------------------------------------------------------------------------
+
+Le type de diagramme n'est pas explicite.
+
+
+
+:paquetage: :ref:`package_Diagramme`  

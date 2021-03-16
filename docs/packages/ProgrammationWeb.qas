@@ -1,0 +1,14 @@
+qa model ProgrammationWeb
+
+rule NomPageJSP:
+    | TODO
+
+
+rule NomFichierCSS:
+    | TODO
+
+
+
+
+
+
